@@ -1,0 +1,175 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = ClubApp
+build_property.RootNamespace = ClubApp
+build_property.ProjectDir = E:\project\Clubs Software\HOLIDAYCLUB FOLDER\websites\ClubApp\ClubApp\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = E:\project\Clubs Software\HOLIDAYCLUB FOLDER\websites\ClubApp\ClubApp
+build_property._RazorSourceGeneratorDebug = 
+
+[E:/project/Clubs Software/HOLIDAYCLUB FOLDER/websites/ClubApp/ClubApp/Views/Common/aboutus.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbW9uXGFib3V0dXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/project/Clubs Software/HOLIDAYCLUB FOLDER/websites/ClubApp/ClubApp/Views/Common/Affiliatedclub.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbW9uXEFmZmlsaWF0ZWRjbHViLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/project/Clubs Software/HOLIDAYCLUB FOLDER/websites/ClubApp/ClubApp/Views/Common/BILLResponse.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbW9uXEJJTExSZXNwb25zZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/project/Clubs Software/HOLIDAYCLUB FOLDER/websites/ClubApp/ClubApp/Views/Common/BookingResponse.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbW9uXEJvb2tpbmdSZXNwb25zZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/project/Clubs Software/HOLIDAYCLUB FOLDER/websites/ClubApp/ClubApp/Views/Common/CALLBACKAPI.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbW9uXENBTExCQUNLQVBJLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/project/Clubs Software/HOLIDAYCLUB FOLDER/websites/ClubApp/ClubApp/Views/Common/cardrechagre.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbW9uXGNhcmRyZWNoYWdyZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/project/Clubs Software/HOLIDAYCLUB FOLDER/websites/ClubApp/ClubApp/Views/Common/CardRechargeresponse.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbW9uXENhcmRSZWNoYXJnZXJlc3BvbnNlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/project/Clubs Software/HOLIDAYCLUB FOLDER/websites/ClubApp/ClubApp/Views/Common/Contactus.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbW9uXENvbnRhY3R1cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/project/Clubs Software/HOLIDAYCLUB FOLDER/websites/ClubApp/ClubApp/Views/Common/Failed.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbW9uXEZhaWxlZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/project/Clubs Software/HOLIDAYCLUB FOLDER/websites/ClubApp/ClubApp/Views/Common/HolidayClubGroupMaster.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbW9uXEhvbGlkYXlDbHViR3JvdXBNYXN0ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/project/Clubs Software/HOLIDAYCLUB FOLDER/websites/ClubApp/ClubApp/Views/Common/home - Copy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbW9uXGhvbWUgLSBDb3B5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/project/Clubs Software/HOLIDAYCLUB FOLDER/websites/ClubApp/ClubApp/Views/Common/home.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbW9uXGhvbWUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/project/Clubs Software/HOLIDAYCLUB FOLDER/websites/ClubApp/ClubApp/Views/Common/imagega.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbW9uXGltYWdlZ2EuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/project/Clubs Software/HOLIDAYCLUB FOLDER/websites/ClubApp/ClubApp/Views/Common/imagegallery.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbW9uXGltYWdlZ2FsbGVyeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/project/Clubs Software/HOLIDAYCLUB FOLDER/websites/ClubApp/ClubApp/Views/Common/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbW9uXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/project/Clubs Software/HOLIDAYCLUB FOLDER/websites/ClubApp/ClubApp/Views/Common/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbW9uXExvZ2luLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/project/Clubs Software/HOLIDAYCLUB FOLDER/websites/ClubApp/ClubApp/Views/Common/LoginOtp.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbW9uXExvZ2luT3RwLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/project/Clubs Software/HOLIDAYCLUB FOLDER/websites/ClubApp/ClubApp/Views/Common/ManagingCommittee.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbW9uXE1hbmFnaW5nQ29tbWl0dGVlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/project/Clubs Software/HOLIDAYCLUB FOLDER/websites/ClubApp/ClubApp/Views/Common/MyAccount.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbW9uXE15QWNjb3VudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/project/Clubs Software/HOLIDAYCLUB FOLDER/websites/ClubApp/ClubApp/Views/Common/MyBill.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbW9uXE15QmlsbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/project/Clubs Software/HOLIDAYCLUB FOLDER/websites/ClubApp/ClubApp/Views/Common/Myvenue.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbW9uXE15dmVudWUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/project/Clubs Software/HOLIDAYCLUB FOLDER/websites/ClubApp/ClubApp/Views/Common/partycalender - Copy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbW9uXHBhcnR5Y2FsZW5kZXIgLSBDb3B5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/project/Clubs Software/HOLIDAYCLUB FOLDER/websites/ClubApp/ClubApp/Views/Common/partycalender.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbW9uXHBhcnR5Y2FsZW5kZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/project/Clubs Software/HOLIDAYCLUB FOLDER/websites/ClubApp/ClubApp/Views/Common/passevent.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbW9uXHBhc3NldmVudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/project/Clubs Software/HOLIDAYCLUB FOLDER/websites/ClubApp/ClubApp/Views/Common/Response.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbW9uXFJlc3BvbnNlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/project/Clubs Software/HOLIDAYCLUB FOLDER/websites/ClubApp/ClubApp/Views/Common/Success.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbW9uXFN1Y2Nlc3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/project/Clubs Software/HOLIDAYCLUB FOLDER/websites/ClubApp/ClubApp/Views/Common/Successcancel.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbW9uXFN1Y2Nlc3NjYW5jZWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/project/Clubs Software/HOLIDAYCLUB FOLDER/websites/ClubApp/ClubApp/Views/Common/UpcomingEvents.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbW9uXFVwY29taW5nRXZlbnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/project/Clubs Software/HOLIDAYCLUB FOLDER/websites/ClubApp/ClubApp/Views/Common/VenueBookingbycash.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbW9uXFZlbnVlQm9va2luZ2J5Y2FzaC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/project/Clubs Software/HOLIDAYCLUB FOLDER/websites/ClubApp/ClubApp/Views/Common/VenueBookings.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbW9uXFZlbnVlQm9va2luZ3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/project/Clubs Software/HOLIDAYCLUB FOLDER/websites/ClubApp/ClubApp/Views/Common/VenueBookingscalendar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbW9uXFZlbnVlQm9va2luZ3NjYWxlbmRhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/project/Clubs Software/HOLIDAYCLUB FOLDER/websites/ClubApp/ClubApp/Views/Common/VenueBookingspayement.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbW9uXFZlbnVlQm9va2luZ3NwYXllbWVudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/project/Clubs Software/HOLIDAYCLUB FOLDER/websites/ClubApp/ClubApp/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/project/Clubs Software/HOLIDAYCLUB FOLDER/websites/ClubApp/ClubApp/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/project/Clubs Software/HOLIDAYCLUB FOLDER/websites/ClubApp/ClubApp/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/project/Clubs Software/HOLIDAYCLUB FOLDER/websites/ClubApp/ClubApp/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/project/Clubs Software/HOLIDAYCLUB FOLDER/websites/ClubApp/ClubApp/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/project/Clubs Software/HOLIDAYCLUB FOLDER/websites/ClubApp/ClubApp/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/project/Clubs Software/HOLIDAYCLUB FOLDER/websites/ClubApp/ClubApp/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-4x3pmgiuvy

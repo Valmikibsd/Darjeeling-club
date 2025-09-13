@@ -1,0 +1,439 @@
+﻿@model ClubApp.Models.venuebooking
+@{
+    ViewData["Title"] = "venuebooking";
+    Layout = null;
+}
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, shrink-to-fit=no, viewport-fit=cover">
+
+    <link rel="apple-touch-icon" href="/img/f7-icon-square.html">
+    <link rel="icon" href="/img/f7-icon.html">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="/vendor/bootstrap-4.1.3/css/bootstrap.min.css">
+
+    <!-- Material design icons CSS -->
+    <link rel="stylesheet" href="/vendor/materializeicon/material-icons.css">
+
+    <!-- swiper carousel CSS -->
+    <link rel="stylesheet" href="/vendor/swiper/css/swiper.min.css">
+
+    <!-- app CSS -->
+    <link id="theme" rel="stylesheet" href="/css/style.css" type="text/css">
+
+
+    <title>Membership Number</title>
+    <style>
+        .col-2 a img {
+            width: 100%;
+            margin-top: 10px;
+        }
+
+        .card.venue {
+            line-height: 55px;
+            height: 70px;
+            text-align: center;
+            margin-bottom: 15px;
+            display: initial;
+        }
+        .mian_venu_data_my img {
+    width: 100%;
+}
+
+        .mian_venu_data_my img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+        }
+
+        .content-sticky-footer .card-body {
+            padding-bottom: 20PX;
+        }
+
+        @@media(max-width:768px){
+            .mian_venu_data_my img {
+                width: 100%;
+                height: 200px;
+                object-fit: cover;
+            }
+
+            
+        }
+    </style>
+</head>
+
+<body class="color-theme-blue" >
+    <div class="wrapper">
+        <!-- page main start -->
+        <div class="page">
+            <div class="page-content h-100">
+                <div class="page-content">
+                    <div class="content-sticky-footer pt-2">
+
+                        <div class="col-12 mb-4">
+                            <div class="row">
+                                <div class="col-10"><a href="/Common/login" class="menu-left-close inner_back block-title"><i class="material-icons">keyboard_arrow_left</i></a><h2 class="block-title inner_title title_top">Venue Bookings</h2> </div>
+                                <div class="col-2">
+                                    <a href="/Common/partycalender?venueid=1" style="float:right"><img src="/img/calh.png" /></a>
+                                </div>
+                            </div>
+               
+                            <div class="row mian_venu_data_my">
+                                @foreach (var sub in Model.venuebookings)
+                                {
+                                    <div class="col-12 col-md-4 col-lg-2">
+                                        <div class="card venue opendalog" style="line-height: 3px;" data-toggle="modal" data-target="#colorscheme" data-id="@sub.Id" data-name="@sub.name" data-liq="@sub.capcity">
+                                            <div class="card-body text-center">
+                                                <div class="w-100">
+                                                    <h4 class="font-weight mb-50">@sub.name</h4><br/>
+                                                    <img src="/VenueMaster/@sub.photo" height="300px" class="imghiegt" />
+                                                   
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                }
+
+                            </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <br>
+
+            </div>
+
+        </div>
+   
+    <!-- page main ends -->
+
+  
+
+    <div class="modal fade bottom main_venue" id="colorscheme" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content ">
+                <div class="modal-body">
+                    <div class="text-center theme-color">
+                        <p class="text-uppercase font-weight-bold text-dark text-center" id="vname" style="color:red" >Your Details  </p>
+                       
+                        <form class="form-group">
+                            <div class="row">
+                               @* <div class="col-12">
+                                    <span>Booking for</span>
+                                    <select id="ddMEMBER" class="form-control text-justify">
+                                        <option value="0">--Select--</option>
+                                        <option value="1" >For members</option>
+                                         <option value="2">For Nonmembers</option>
+                                    </select>
+                                </div>*@
+
+                                <div style="margin-top: 10px; text-align:center;width: 100%;">
+                                                    <span  style="text-align:center"  id="liquer"></span>
+                                                    </div>
+                                        
+                                
+                                <div class="col-12" id="DATSE" style="display:none">
+                                    <span style="
+    color: black;
+    font-weight: 600;
+    padding-top: 10px;
+    display: block;">Select Date</span>
+                                    @Html.EditorFor(model => model.Date, new { htmlAttributes = new { @class = "datepicker form-control login_input border-0 text-justify", @readonly = "readonly" } })
+
+                                @Html.ValidationMessageFor(model => model.Date, "", new { @class = "text-danger" })
+                                </div>
+                                <div class="col-12"  id="slot" style="display:none">
+                                    <span>Timing</span>
+                                    <select  id="Timing" class="form-control text-justify" name="Timing"></select>
+                                </div>
+                                <div class="col-12" id="detad" >
+
+                                    </div><br/>
+                                <div class="col-12" style="color:orangered" id="detmsg">
+                                </div>
+                                <span></span>
+                            </div>
+                            <br>
+                             <div class="row">
+                                <div class="col-11" id="disclas" >
+                           <a href="#" id="book"   style="display:none"  class="btn login_btn border-0 z-3">Pay</a>
+                                </div>
+                                <div class="col-1" style="display:none">
+                            <a href="#" id="book1" style="display:none" class="btn login_btn border-0 z-3" title="" >By Cash</a>
+                                </div>
+                                <div id="msgsg" style="display:none; color:red">Cash booking valid for 48 hours if you not paid under 48 hours this booking automated cancel. </div>
+                            </div>
+                           <input type="hidden"  id="vanuseid" name="vanuseid" />
+                            
+                        </form>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <label for="rozarepayemnt" id="rozarepayemnt"/>
+    @*<input  type="hidden" id="rozarepayemnt" name="rozarepayemnt" />*@
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="/js/jquery-3.2.1.min.js"></script>
+    <script src="/js/popper.min.js"></script>
+    <script src="/vendor/bootstrap-4.1.3/js/bootstrap.min.js"></script>
+
+    <!-- Cookie jquery file -->
+   <script src="/vendor/cookie/jquery.cookie.js"></script>
+
+    <!-- sparklines chart jquery file -->
+    <script src="/vendor/sparklines/jquery.sparkline.min.js"></script>
+
+    <!-- Circular progress gauge jquery file -->
+    <script src="/vendor/circle-progress/circle-progress.min.js"></script>
+
+    <!-- Swiper carousel jquery file -->
+    <script src="/vendor/swiper/js/swiper.min.js"></script>
+
+    <!-- Application main common jquery file -->
+  @*  <script src="/js/main.js"></script>*@
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.9.2/themes/base/jquery-ui.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js"></script>
+    <!-- page specific script -->
+@*
+    <script src="~/scripts_new/js/OnlineTrain.js"></script>*@
+    <script src="~/scripts_new/js/jquery.validate.min.js"></script>
+    <script src="~/scripts_new/js/jquery.validate.js"></script>
+
+
+    <script>
+
+        $('.opendalog').click(function () {
+            $("#detad").html('');
+            //alert('called');
+            // we want to copy the 'id' from the button to the modal
+            var href = $(this).data('target');
+            var id = $(this).data('id');
+            var name = $(this).data('name');
+             var calp = $(this).data('liq');
+            $("#book").hide();
+            $("#slot").hide();
+             $("#detmsg").html('');
+            $("#msgsg").hide();
+           //alert(name);
+
+            $("#Timing").html('');
+         
+
+          $("#vanuseid").val(id);
+        
+            $("#vname").html(name)
+            if(calp==1)
+            {
+               $("#liquer").html("Service of liquor is available at this venues against P-13 license (additional charge) for which 7 working days is required. Kindly contact the Club office for the same.");
+            }
+            else{
+                $("#liquer").html("");
+            }
+           
+            
+        });
+
+
+        $('#book').click(function () {
+
+            var vsoid = $("#vanuseid").val();
+
+            var dateval = $("#Date").val();
+            var e = document.getElementById("Timing");
+            var venetupeids = e.value;
+            //var ee = document.getElementById("ddMEMBER");
+            //var memtypes = ee.value;
+
+
+            window.location.href = "/Common/VenueBookingspayement?datedata=" + dateval + "&vanuid=" + vsoid + "&venetupeid=" + venetupeids + ""
+     
+
+        });
+        $('#book1').click(function () {
+
+            var vsoid = $("#vanuseid").val();
+
+            var dateval = $("#Date").val();
+            var e = document.getElementById("Timing");
+            var venetupeids = e.value;
+      
+            window.location.href = "/Common/VenueBookingbycash?datedata=" + dateval + "&vanuid=" + vsoid + "&venetupeid=" + venetupeids + ""
+
+
+        });
+
+
+        function daysdifference(firstDate, secondDate) {
+
+            var startDay = new Date(firstDate);
+           var endDay = new Date(secondDate);
+
+            //alert(secondDate)
+           //alert(endDay)
+            // Determine the time difference between two dates
+
+           // var diff = new Date(secondDate - firstDate);
+
+            var millisBetween = endDay - startDay
+           // alert(diff);
+
+            // Determine the number of days between two dates
+            var days = millisBetween / (1000 * 3600 * 24);
+         // alert(days);
+            // Show the final number of days between dates
+            return Math.round(Math.abs(days));
+        }
+
+        $(document).ready(function () {
+              $("#DATSE").show();
+
+            
+           
+            $('.datepicker').change(function () {
+               
+                var vsoid = $("#vanuseid").val();
+              
+                var dateval = $(this).val();
+
+                var d = new Date();
+                var month = d.getMonth() + 1;
+                var day = d.getDate();
+
+                var output = (('' + month).length < 2 ? '0' : '') + month + '/' +
+                (('' + day).length < 2 ? '0' : '') + day+ '/' +
+                    d.getFullYear();
+
+
+                var datess = dateval.split("-");
+
+               var nedate = datess[1] + '/' + datess[0] + '/' + datess[2]
+             // alert(nedate);
+              
+                var obj = {
+                    Date: dateval
+                };
+
+                $.ajax({
+                    url: "/Common/BindSlotTime",
+                    data: { datedata: dateval, vanuid: vsoid },
+                    type: "POST",
+                    success: function (data) {
+                        var v = "";
+                        $("#Timing").html(data);
+                      
+                         $("#slot").show();
+                        if (data !="")
+                        {
+                            $("#detmsg").html('');
+
+                            var days = daysdifference(output, nedate);
+                            if(days<=10)
+                            {
+                                $("#disclas").removeClass("col-12");
+                                $("#disclas").addClass("col-6");
+
+                              //  $("#msgsg").show();
+                               
+                                $("#book1").show();
+
+                               //  $("#disclas").removeClass("col-6");
+                               //  $("#disclas").addClass("col-12");
+                              $("#book").show();
+                               //  $("#msgsg").hide();
+                               //  $("#book1").hide();
+                            }
+                            else{
+                                  $("#disclas").removeClass("col-12");
+                                $("#disclas").addClass("col-6");
+                                
+                                
+                                
+                                //$("#msgsg").show();
+                               $("#book").show();
+                                $("#book1").show();
+                            }
+                        }
+                        else
+                        {
+                            $("#detmsg").html("For booking for this venue, for this date, please contact club's booking office.");
+                            $("#book").hide();
+                        }
+
+                        $.ajax({
+                            url: "/Common/Bindbookfreeslot",
+                            data: { datedata: dateval, vanuid: vsoid },
+                            type: "POST",
+                            success: function (data) {
+                                var v = "";
+                                $("#detad").html(data);
+                             
+                            },
+                        });
+
+
+                    },
+                });
+            });
+
+
+            var eventDates = {};
+            $.ajax({
+                url: "/Common/AllBlockDateList",
+                data: {},
+                type: "POST",
+                //contentType: "application/json;charset=utf-8",
+                dataType: "json",
+                success: function (data) {
+                    if (data == "Data Not Found.!") {
+                    }
+                    else {
+                        $.each(data, function (key, item) {
+                            debugger
+                            //eventDates[new Date(item.Date)] = new Date(item.Date);
+                            eventDates[new Date('02/07/2023')] = new Date('02/07/2023');
+                        });
+                    }
+                },
+            });
+
+          
+            $('.datepicker').datepicker({
+
+                beforeShowDay: function (date) {
+
+                    var highlight = eventDates[date];
+
+                    if (highlight) {
+
+                        
+                        return [false, "", "unAvailable"];
+                    } else {
+                        return [true, "", "Available"];
+
+                    }
+                },
+                changeYear: true,
+                changeYear: true,
+                dateFormat: "dd-mm-yy",
+                minDate: 0
+            });
+
+        });
+    </script>
+</body>
+
+</html>

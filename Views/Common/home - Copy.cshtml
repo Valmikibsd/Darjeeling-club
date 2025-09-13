@@ -1,0 +1,401 @@
+﻿@model ClubApp.Models.Myevent
+@{
+    ViewData["Title"] = "home";
+   // Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, shrink-to-fit=no, viewport-fit=cover">
+
+    <link rel="apple-touch-icon" href="/img/f7-icon-square.html">
+    <link rel="icon" href="/img/f7-icon.html">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="/vendor/bootstrap-4.1.3/css/bootstrap.min.css">
+
+    <!-- Material design icons CSS -->
+    <link rel="stylesheet" href="/vendor/materializeicon/material-icons.css">
+
+    <!-- swiper carousel CSS -->
+    <link rel="stylesheet" href="/vendor/swiper/css/swiper.min.css">
+
+    <!-- app CSS -->
+    <link id="theme" rel="stylesheet" href="/css/style.css" type="text/css">
+
+
+    <title>Membership Number</title>
+    <style type="text/css">
+        .jqstooltip {
+            position: absolute;
+            left: 0px;
+            top: 0px;
+            visibility: hidden;
+            background: rgb(0, 0, 0) transparent;
+            background-color: rgba(0,0,0,0.6);
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+            -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+            color: white;
+            font: 10px arial, san serif;
+            text-align: left;
+            white-space: nowrap;
+            padding: 5px;
+            border: 1px solid white;
+            z-index: 10000;
+        }
+
+        .jqsfield {
+            color: white;
+            font: 10px arial, san serif;
+            text-align: left;
+        }
+    </style>
+</head>
+
+<body class="color-theme-blue push-content-right theme-light">
+    <div class="wrapper">
+        <!-- sidebar left start -->
+        <div class="sidebar sidebar-left">
+            <div class="profile-link">
+                <a href="My-Account.html" class="media">
+                    <div class="w-auto h-100">
+                        <div class="logos">
+                            <figure>
+                                <img src="/img/Photo/@ViewBag.PHOTO" alt="">
+
+                            </figure>
+                            <span>Helloaaa </span>
+                            <img class="hi" src="/img/hi.png" alt=""><br>
+                            <span class="name">@ViewBag.name</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <nav class="navbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="/Common/MyAccount" class="sidebar-close">
+                            <div class="item-title">
+                                <img src="/img/m4.png" class="material-icon"> My Profile
+                            </div>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/Common/VenueBookings" class="sidebar-close">
+                            <div class="item-title">
+                                <img src="/img/m1.png" class="material-icon"> Venue Bookings
+                            </div>
+                        </a>
+                    </li>
+                    <!-- ------------------ -->
+
+                    <li class="nav-item">
+                        <a href="/Common/Myvenue" class="sidebar-close">
+                            <div class="item-title">
+                                <img src="/img/m2.png" class="material-icon"> My Venue Booking
+                            </div>
+                        </a>
+                    </li>
+                    <!-- ------------------ -->
+
+                    <li class="nav-item">
+                        <a href="/Common/UpcomingEvents" class="sidebar-close">
+                            <div class="item-title">
+                                <img src="/img/m3.png" class="material-icon"> Upcomming Events
+                            </div>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/Common/passevent" class="sidebar-close">
+                            <div class="item-title">
+                                <img src="/img/m6.png" class="material-icon"> Passed Events
+                            </div>
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="/Common/Affiliatedclub" class="sidebar-close">
+                            <div class="item-title">
+                                <img src="/img/m3.png" class="material-icon"> Affiliated Club
+                            </div>
+                        </a>
+                    </li>
+                    <!-- ------------------ -->
+
+                    <li class="nav-item">
+                        <a href="/Common/Mybill" class="sidebar-close">
+                            <div class="item-title">
+                                <img src="/img/m4.png" class="material-icon"> My Bills
+                            </div>
+                        </a>
+                    </li>
+                    <!-- ------------------ -->
+
+                    <li class="nav-item">
+                        <a href="/Common/ManagingCommittee" class="sidebar-close">
+                            <div class="item-title">
+                                <img src="/img/m5.png" class="material-icon"> Managing Committee
+                            </div>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/Common/imagega" class="sidebar-close">
+                            <div class="item-title">
+                                <img src="/img/m8.png" class="material-icon"> Gallery
+                            </div>
+                        </a>
+                    </li>
+                    <!-- ------------------ -->
+                    <li class="nav-item">
+                        <a href="/Common/Contactus" class="sidebar-close">
+                            <div class="item-title">
+                                <img src="/img/m7.png" class="material-icon"> Contact us
+                            </div>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/Common/aboutus" class="sidebar-close">
+                            <div class="item-title">
+                                <img src="/img/m6.png" class="material-icon"> About Holiday Club
+                            </div>
+                        </a>
+                    </li>
+                    
+                    <!-- ------------------ -->
+
+                  @*  <li class="nav-item">
+                        <a href="index.html" class="sidebar-close">
+                            <div class="item-title">
+                                <img src="/img/m7.png" class="material-icon"> Share App
+                            </div>
+                        </a>
+                    </li>*@
+                   
+                </ul>
+            </nav>
+          @*  <hr class="my-0" style="background: #5c5c5c;">*@
+            <div class="profile-link text-center">
+                <a href="/Common/Logout" class="btn btn-link text-white btn-block" style="text-transform:none !important"><img src="/img/m8.png" class="material-icon"> Logout</a>
+            </div>
+        </div>
+        <!-- sidebar left ends -->
+        <!-- sidebar right start -->
+        <div class="sidebar sidebar-right">
+            <header class="row m-0 fixed-header">
+                <div class="left">
+                    <a href="javascript:void(0)" class="menu-left-close"><i class="material-icons">keyboard_backspace</i></a>
+                </div>
+                <div class="col center">
+                    <a href="#" class="logo">Best Rated</a>
+                </div>
+            </header>
+            <div class="page-content text-white">
+                <div class="row mx-0 mt-3">
+                    <div class="col">
+                        <div class="card bg-none border-0 shadow-none">
+                            <div class="card-body userlist_large">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      
+        <div class="page">
+            <form class="searchcontrol">
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <button type="button" class="input-group-text close-search"><i class="material-icons">keyboard_backspace</i></button>
+                    </div>
+                    <input type="email" class="form-control border-0" placeholder="Search..." aria-label="Username">
+                </div>
+            </form>
+            <header class="row m-0 fixed-header">
+                <div class="left">
+                    <a href="javascript:void(0)" class="menu-left"><i class="material-icons">menu</i></a>
+                </div>
+                <div class="col center">
+                    <a href="/Common/MyAccount" class="logo">
+                        <figure><img src="/img/Photo/@ViewBag.PHOTO" alt="" style="border-radius:50%; margin-top:1px;"><span class="name">@ViewBag.name</span></figure> <span>Hello </span><img class="hi" src="/img/hi.png" alt="">
+                    </a>
+                </div>
+               @* <div class="right">
+                    <a href="javascript:void(0)" class="searchbtn"><i class="material-icons">search</i></a>
+                    <a href="javascript:void(0)" class="menu-right"><i class="material-icons">person</i></a>
+                </div*@>
+            </header>
+            <div class="page-content">
+                <div class="content-sticky-footer">
+                    <div class="col-12  mb-4">
+                        <h1><span class="font-weight-lights small">Your Insights</span></h1>
+                    </div>
+                    <div class="col-12 mb-4">
+                        <div class="row">
+                            <div class="col-6 col-md-4 col-lg-2">
+                                <a href="/Common/MyBill">
+                                <div class="card">
+                                    <div class="card-body text-center">
+                                        <div class="w-100">
+                                            <div class="dynamicsparklines my-3"><img src="/img/bill.PNG" style="display: inline-block; width: 50%; height: 50%; vertical-align: top;"></div>
+                                            <h2 class="font-weight mb-0">My Bills</h2>
+                                     @*       <div class="text-successs mt-3 small"> 2 Bills </div>*@
+                                            <br>
+                                        </div>
+                                    </div>
+                                </div>
+                                </a>
+                            </div>
+                            <div class="col-6 col-md-4 col-lg-2">
+                                <a href="/Common/ManagingCommittee">
+                                <div class="card">
+                                    <div class="card-body text-center">
+                                        <div class="w-100">
+                                            <div class="dynamicsparklines my-3"><img src="/img/committee.PNG" style="display: inline-block; width: 50%; height: 50%; vertical-align: top;"></div>
+                                            <h2 class="font-weight mb-0">Managing Committee</h2>
+                                            @*<div class="text-successs mt-3 small"> 10 Members</div>*@
+                                        </div>
+                                    </div>
+                                </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12">
+                        <div class="row">
+                            <div class="col-12"><h2 class="block-title">Event</h2></div>
+                        </div>
+                    </div>
+                    <div class="col-12 mb-4 ">
+                        <ul class="list-group">
+                             @foreach(var sub in Model.Events)
+                                                            {
+                            <li class="list-group-items py-3">
+                                    <img width="100%" src=https://admin.holidayclub.in/Event/@sub.image>
+                               @* <div class="img-tag">
+                                    <h2>Sports</h2>
+                                </div>*@
+                                <div class="row">
+                                    <div class="col-8">
+                                        <h5 class="tag">@sub.eventname</h5>
+                                    </div>
+                                @*    <div class="col-4">
+                                        <h5 class="location"><i class="material-icons text-warning vm mr-2">map</i>Delhi</h5>
+                                    </div>*@
+                                </div>
+                                <div class="row">
+                                    <div class="col-12">
+                                        <p class="time">@sub.eventdate </p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-8">
+                                        @*<div class="Participants"><img src="/img/user2.png"></div>
+                                        <div class="Participants edit"><img style="margin-right: -9px;" src="/img/user2.png"></div>
+                                        <div class="Participants edit"><img style="margin-right: -9px;" src="/img/user2.png"></div>*@
+                                       @* <p class="times">554 Participants </p>*@
+                                    </div>
+                                  @*  <div class="col-4">
+                                        <div class="img-tags">
+                                            <a href=""><h2>Sports</h2></a>
+                                        </div>
+                                    </div>*@
+                                </div>
+                            </li>
+                            }
+
+                         
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- page main ends -->
+
+
+    </div>
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="/js/jquery-3.2.1.min.js"></script>
+    <script src="/js/popper.min.js"></script>
+    <script src="/vendor/bootstrap-4.1.3/js/bootstrap.min.js"></script>
+
+
+    <!-- sparklines chart jquery file -->
+    <script src="/vendor/sparklines/jquery.sparkline.min.js"></script>
+
+    <!-- Circular progress gauge jquery file -->
+    <script src="/vendor/circle-progress/circle-progress.min.js"></script>
+
+    <!-- Swiper carousel jquery file -->
+    <script src="/vendor/swiper/js/swiper.min.js"></script>
+
+    <!-- Application main common jquery file -->
+    <script src="/js/main.js"></script>
+
+    <!-- page specific script -->
+    <!-- page specific script -->
+    <script>$(window).on('load', function() {
+            /* sparklines */
+            $(".dynamicsparkline").sparkline([5, 6, 7, 2, 0, 4, 2, 5, 6, 7, 2, 0, 4, 2, 4], {
+                type: 'bar',
+                height: '25',
+                barSpacing: 2,
+                barColor: '#a9d7fe',
+                negBarColor: '#ef4055',
+                zeroColor: '#ffffff'
+            });
+
+            /* gauge chart circular progress */
+            $('.progress_profile1').circleProgress({
+                fill: '#169cf1',
+                lineCap: 'butt'
+            });
+            $('.progress_profile2').circleProgress({
+                fill: '#f4465e',
+                lineCap: 'butt'
+            });
+            $('.progress_profile4').circleProgress({
+                fill: '#ffc000',
+                lineCap: 'butt'
+            });
+            $('.progress_profile3').circleProgress({
+                fill: '#00c473',
+                lineCap: 'butt'
+            });
+            $('.progress_profile5').circleProgress({
+                fill: '#ffffff',
+                lineCap: 'butt'
+            });
+
+            /*Swiper carousel */
+            var mySwiper = new Swiper('.swiper-container', {
+                slidesPerView: 2,
+                spaceBetween: 0,
+                autoplay: {
+                    delay: 1500,
+                    disableOnInteraction: false,
+                },
+                pagination: {
+                    el: '.swiper-pagination',
+                    clickable: true,
+                }
+            });
+            /* tooltip */
+            $(function() {
+                $('[data-toggle="tooltip"]').tooltip()
+            });
+        });</script>
+
+</body>
+
+</html>
+

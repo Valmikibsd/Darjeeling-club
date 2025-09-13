@@ -1,0 +1,90 @@
+﻿@{
+    ViewData["Title"] = "CMS_DROPDOWN";
+    Layout = "~/Areas/Admin/Views/Shared/_MainLayout.cshtml";
+}
+
+<div class="container-fluid">
+    <br>
+    <div class="card shadow mb-4">
+        <div class="card-header py-3">
+            <h6 class="m-0 font-weight-bold text-primary">Content Management Sysytem</h6>
+        </div>
+        <div class="card-body">
+            <div class="row">
+                <input type="hidden" id="id" />
+                @*<input type="hidden" value="id" @ViewBag.ID />*@
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label class="font-weight-700 font-size-16">CMS Master</label>
+                        <select id="ddlcmsdropdown" class="form-control" tabindex="1" onchange="ShowDataInTable()">
+                            <option value="0">CMS Master</option>
+                            @if (ViewBag.Categoryobj != null)
+                            {
+                                foreach (var item in ViewBag.Categoryobj as List<SelectListItem>)
+                                {
+                                    <option value="@item.Value">@item.Text</option>
+                                }
+                            }
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <label class="font-weight-700 font-size-16">Description</label>
+                        <textarea type="text" class="form-control" id="Description"></textarea>
+                        <div style="clear: both;"></div>
+                        <script type="text/javascript">
+                            $(function () {
+                                CKEDITOR.replace('Description',
+                                    { filebrowserImageUploadUrl: '/Upload.ashx', filebrowserUploadUrl: '/Upload.ashx' }); //path to “Upload.ashx”
+                            });
+                        </script>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-actions mt-10" id="btnsv">
+                <input type="button" class="btn btn-primary" id="btnSave" onclick="IUCMS_DROPDOWN()"
+                       value="Save" />
+            </div>
+
+            <div class="form-actions mt-10" id="btnupdt" style="display:none">
+                <input type="button" class="btn btn-primary" id="btnupdate" onclick="IUpdateCMS_DROPDOWN()"
+                       value="Update" />
+            </div>
+        </div>
+        <div class="col-md-12">
+            <table id="data-table" class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>Event Name</th>
+                        <th>Description</th>
+                        <th>Edit</th>
+                        <th>Delete</th>
+                    </tr>
+                </thead>
+                <tbody class="Categorybody"></tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+
+
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="~/js/CMS_DROPDOWN.js"></script>
+<link href="~/Content/bootstrap.css" rel="stylesheet" />
+<script src="/Scripts/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="/ckeditor/ckeditor.js"></script>
+<script type="text/javascript" src="/ckeditor/adapters/jquery.js"></script>
+<script type="text/javascript">
+    ShowDataInTable();
+
+
+</script>
+
+

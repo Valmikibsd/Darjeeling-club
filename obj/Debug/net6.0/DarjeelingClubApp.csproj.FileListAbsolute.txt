@@ -1,0 +1,1281 @@
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\appsettings.Development.json
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\appsettings.json
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\libman.json
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\DarjeelingClubApp.staticwebassets.runtime.json
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\DarjeelingClubApp.staticwebassets.endpoints.json
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\DarjeelingClubApp.exe
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\DarjeelingClubApp.deps.json
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\DarjeelingClubApp.runtimeconfig.json
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\DarjeelingClubApp.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\DarjeelingClubApp.pdb
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\Humanizer.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\MessagePack.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\MessagePack.Annotations.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\Microsoft.AspNetCore.Razor.Language.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\Microsoft.Build.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\Microsoft.Build.Framework.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\Microsoft.CodeAnalysis.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Features.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\Microsoft.CodeAnalysis.Features.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\Microsoft.CodeAnalysis.Razor.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\Microsoft.CodeAnalysis.Scripting.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\Microsoft.CodeAnalysis.VisualBasic.Features.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\Microsoft.CodeAnalysis.VisualBasic.Workspaces.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\Microsoft.CodeAnalysis.Workspaces.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\Microsoft.DiaSymReader.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\Microsoft.DotNet.Scaffolding.Shared.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\Microsoft.NET.StringTools.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\Microsoft.VisualStudio.Debugger.Contracts.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\dotnet-aspnet-codegenerator-design.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\Nancy.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\Nancy.Serialization.JsonNet.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\Newtonsoft.Json.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\NuGet.Common.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\NuGet.Configuration.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\NuGet.DependencyResolver.Core.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\NuGet.Frameworks.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\NuGet.LibraryModel.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\NuGet.Packaging.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\NuGet.ProjectModel.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\NuGet.Protocol.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\NuGet.Versioning.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\RazorPay Core.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\Syncfusion.EJ2.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\Syncfusion.Licensing.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\System.Composition.AttributedModel.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\System.Composition.Convention.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\System.Composition.Hosting.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\System.Composition.Runtime.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\System.Composition.TypedParts.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\System.Data.SqlClient.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\System.Drawing.Common.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\System.Security.Permissions.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\System.Windows.Extensions.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Features.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Features.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Features.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Features.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Features.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Features.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Features.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Features.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Features.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Features.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Features.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Features.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Features.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\obj\Debug\net6.0\DarjeelingClubApp.csproj.AssemblyReference.cache
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\obj\Debug\net6.0\DarjeelingClubApp.GeneratedMSBuildEditorConfig.editorconfig
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\obj\Debug\net6.0\DarjeelingClubApp.AssemblyInfoInputs.cache
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\obj\Debug\net6.0\DarjeelingClubApp.AssemblyInfo.cs
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\obj\Debug\net6.0\DarjeelingClubApp.csproj.CoreCompileInputs.cache
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\obj\Debug\net6.0\DarjeelingClubApp.MvcApplicationPartsAssemblyInfo.cs
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\obj\Debug\net6.0\DarjeelingClubApp.MvcApplicationPartsAssemblyInfo.cache
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\obj\Debug\net6.0\DarjeelingClubApp.RazorAssemblyInfo.cache
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\obj\Debug\net6.0\DarjeelingClubApp.RazorAssemblyInfo.cs
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\obj\Debug\net6.0\scopedcss\bundle\DarjeelingClubApp.styles.css
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\obj\Debug\net6.0\scopedcss\projectbundle\DarjeelingClubApp.bundle.scp.css
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\obj\Debug\net6.0\staticwebassets.build.json
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\obj\Debug\net6.0\staticwebassets.development.json
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\obj\Debug\net6.0\staticwebassets.build.endpoints.json
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\obj\Debug\net6.0\staticwebassets\msbuild.DarjeelingClubApp.Microsoft.AspNetCore.StaticWebAssets.props
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\obj\Debug\net6.0\staticwebassets\msbuild.DarjeelingClubApp.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\obj\Debug\net6.0\staticwebassets\msbuild.build.DarjeelingClubApp.props
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.DarjeelingClubApp.props
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.DarjeelingClubApp.props
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\obj\Debug\net6.0\staticwebassets.pack.json
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\obj\Debug\net6.0\staticwebassets.upToDateCheck.txt
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\obj\Debug\net6.0\Darjeeli.5382E462.Up2Date
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\obj\Debug\net6.0\DarjeelingClubApp.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\obj\Debug\net6.0\refint\DarjeelingClubApp.dll
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\obj\Debug\net6.0\DarjeelingClubApp.pdb
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\obj\Debug\net6.0\DarjeelingClubApp.genruntimeconfig.cache
+E:\Vishal_Project\newwork_backup\new work\gymkhana\ClubApp\obj\Debug\net6.0\ref\DarjeelingClubApp.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\appsettings.Development.json
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\appsettings.json
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\libman.json
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\DarjeelingClubApp.staticwebassets.runtime.json
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\DarjeelingClubApp.exe
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\DarjeelingClubApp.deps.json
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\DarjeelingClubApp.runtimeconfig.json
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\DarjeelingClubApp.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\DarjeelingClubApp.pdb
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\Humanizer.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\MessagePack.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\MessagePack.Annotations.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\Microsoft.AspNetCore.Razor.Language.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\Microsoft.Build.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\Microsoft.Build.Framework.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\Microsoft.CodeAnalysis.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Features.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\Microsoft.CodeAnalysis.Features.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\Microsoft.CodeAnalysis.Razor.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\Microsoft.CodeAnalysis.Scripting.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\Microsoft.CodeAnalysis.VisualBasic.Features.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\Microsoft.CodeAnalysis.VisualBasic.Workspaces.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\Microsoft.CodeAnalysis.Workspaces.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\Microsoft.DiaSymReader.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\Microsoft.DotNet.Scaffolding.Shared.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\Microsoft.NET.StringTools.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\Microsoft.VisualStudio.Debugger.Contracts.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\dotnet-aspnet-codegenerator-design.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\Nancy.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\Nancy.Serialization.JsonNet.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\Newtonsoft.Json.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\NuGet.Common.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\NuGet.Configuration.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\NuGet.DependencyResolver.Core.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\NuGet.Frameworks.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\NuGet.LibraryModel.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\NuGet.Packaging.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\NuGet.ProjectModel.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\NuGet.Protocol.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\NuGet.Versioning.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\RazorPay Core.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\Syncfusion.EJ2.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\Syncfusion.Licensing.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\System.Composition.AttributedModel.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\System.Composition.Convention.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\System.Composition.Hosting.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\System.Composition.Runtime.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\System.Composition.TypedParts.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\System.Data.SqlClient.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\System.Drawing.Common.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\System.Security.Permissions.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\System.Windows.Extensions.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Features.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Features.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Features.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Features.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Features.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Features.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Features.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Features.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Features.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Features.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Features.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Features.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Features.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\obj\Debug\net6.0\DarjeelingClubApp.csproj.AssemblyReference.cache
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\obj\Debug\net6.0\DarjeelingClubApp.GeneratedMSBuildEditorConfig.editorconfig
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\obj\Debug\net6.0\DarjeelingClubApp.AssemblyInfoInputs.cache
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\obj\Debug\net6.0\DarjeelingClubApp.AssemblyInfo.cs
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\obj\Debug\net6.0\DarjeelingClubApp.csproj.CoreCompileInputs.cache
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\obj\Debug\net6.0\DarjeelingClubApp.MvcApplicationPartsAssemblyInfo.cs
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\obj\Debug\net6.0\DarjeelingClubApp.MvcApplicationPartsAssemblyInfo.cache
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\obj\Debug\net6.0\DarjeelingClubApp.RazorAssemblyInfo.cache
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\obj\Debug\net6.0\DarjeelingClubApp.RazorAssemblyInfo.cs
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\obj\Debug\net6.0\staticwebassets.build.json
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\obj\Debug\net6.0\staticwebassets.development.json
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\obj\Debug\net6.0\staticwebassets\msbuild.DarjeelingClubApp.Microsoft.AspNetCore.StaticWebAssets.props
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\obj\Debug\net6.0\staticwebassets\msbuild.build.DarjeelingClubApp.props
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.DarjeelingClubApp.props
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.DarjeelingClubApp.props
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\obj\Debug\net6.0\staticwebassets.pack.json
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\obj\Debug\net6.0\scopedcss\bundle\DarjeelingClubApp.styles.css
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\obj\Debug\net6.0\scopedcss\projectbundle\DarjeelingClubApp.bundle.scp.css
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\obj\Debug\net6.0\Darjeeli.5382E462.Up2Date
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\obj\Debug\net6.0\DarjeelingClubApp.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\obj\Debug\net6.0\refint\DarjeelingClubApp.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\obj\Debug\net6.0\DarjeelingClubApp.pdb
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\obj\Debug\net6.0\DarjeelingClubApp.genruntimeconfig.cache
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\obj\Debug\net6.0\ref\DarjeelingClubApp.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\appsettings.Development.json
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\appsettings.json
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\libman.json
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\DarjeelingClubApp.staticwebassets.runtime.json
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\DarjeelingClubApp.staticwebassets.endpoints.json
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\DarjeelingClubApp.exe
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\DarjeelingClubApp.deps.json
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\DarjeelingClubApp.runtimeconfig.json
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\DarjeelingClubApp.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\DarjeelingClubApp.pdb
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\Humanizer.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\MessagePack.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\MessagePack.Annotations.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\Microsoft.AspNetCore.Razor.Language.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\Microsoft.Build.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\Microsoft.Build.Framework.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\Microsoft.CodeAnalysis.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Features.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\Microsoft.CodeAnalysis.Features.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\Microsoft.CodeAnalysis.Razor.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\Microsoft.CodeAnalysis.Scripting.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\Microsoft.CodeAnalysis.VisualBasic.Features.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\Microsoft.CodeAnalysis.VisualBasic.Workspaces.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\Microsoft.DiaSymReader.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\Microsoft.DotNet.Scaffolding.Shared.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\Microsoft.NET.StringTools.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\Microsoft.VisualStudio.Debugger.Contracts.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\dotnet-aspnet-codegenerator-design.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\Nancy.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\Nancy.Serialization.JsonNet.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\NuGet.Common.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\NuGet.Configuration.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\NuGet.DependencyResolver.Core.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\NuGet.Frameworks.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\NuGet.LibraryModel.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\NuGet.Packaging.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\NuGet.ProjectModel.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\NuGet.Protocol.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\NuGet.Versioning.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\RazorPay Core.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\Syncfusion.EJ2.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\Syncfusion.Licensing.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\System.Composition.AttributedModel.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\System.Composition.Convention.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\System.Composition.Hosting.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\System.Composition.Runtime.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\System.Composition.TypedParts.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\System.Data.SqlClient.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Vishal\ajayapp\ClubApp\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\Vishal\ajayapp\ClubApp\obj\Debug\net6.0\DarjeelingClubApp.csproj.AssemblyReference.cache
+D:\Vishal\ajayapp\ClubApp\obj\Debug\net6.0\DarjeelingClubApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\Vishal\ajayapp\ClubApp\obj\Debug\net6.0\DarjeelingClubApp.AssemblyInfoInputs.cache
+D:\Vishal\ajayapp\ClubApp\obj\Debug\net6.0\DarjeelingClubApp.AssemblyInfo.cs
+D:\Vishal\ajayapp\ClubApp\obj\Debug\net6.0\DarjeelingClubApp.csproj.CoreCompileInputs.cache
+D:\Vishal\ajayapp\ClubApp\obj\Debug\net6.0\DarjeelingClubApp.MvcApplicationPartsAssemblyInfo.cs
+D:\Vishal\ajayapp\ClubApp\obj\Debug\net6.0\DarjeelingClubApp.MvcApplicationPartsAssemblyInfo.cache
+D:\Vishal\ajayapp\ClubApp\obj\Debug\net6.0\DarjeelingClubApp.RazorAssemblyInfo.cache
+D:\Vishal\ajayapp\ClubApp\obj\Debug\net6.0\DarjeelingClubApp.RazorAssemblyInfo.cs
+D:\Vishal\ajayapp\ClubApp\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\Vishal\ajayapp\ClubApp\obj\Debug\net6.0\scopedcss\bundle\DarjeelingClubApp.styles.css
+D:\Vishal\ajayapp\ClubApp\obj\Debug\net6.0\scopedcss\projectbundle\DarjeelingClubApp.bundle.scp.css
+D:\Vishal\ajayapp\ClubApp\obj\Debug\net6.0\staticwebassets.build.json
+D:\Vishal\ajayapp\ClubApp\obj\Debug\net6.0\staticwebassets.development.json
+D:\Vishal\ajayapp\ClubApp\obj\Debug\net6.0\staticwebassets.build.endpoints.json
+D:\Vishal\ajayapp\ClubApp\obj\Debug\net6.0\staticwebassets\msbuild.DarjeelingClubApp.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Vishal\ajayapp\ClubApp\obj\Debug\net6.0\staticwebassets\msbuild.DarjeelingClubApp.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+D:\Vishal\ajayapp\ClubApp\obj\Debug\net6.0\staticwebassets\msbuild.build.DarjeelingClubApp.props
+D:\Vishal\ajayapp\ClubApp\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.DarjeelingClubApp.props
+D:\Vishal\ajayapp\ClubApp\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.DarjeelingClubApp.props
+D:\Vishal\ajayapp\ClubApp\obj\Debug\net6.0\staticwebassets.pack.json
+D:\Vishal\ajayapp\ClubApp\obj\Debug\net6.0\staticwebassets.upToDateCheck.txt
+D:\Vishal\ajayapp\ClubApp\obj\Debug\net6.0\Darjeeli.5382E462.Up2Date
+D:\Vishal\ajayapp\ClubApp\obj\Debug\net6.0\DarjeelingClubApp.dll
+D:\Vishal\ajayapp\ClubApp\obj\Debug\net6.0\refint\DarjeelingClubApp.dll
+D:\Vishal\ajayapp\ClubApp\obj\Debug\net6.0\DarjeelingClubApp.pdb
+D:\Vishal\ajayapp\ClubApp\obj\Debug\net6.0\DarjeelingClubApp.genruntimeconfig.cache
+D:\Vishal\ajayapp\ClubApp\obj\Debug\net6.0\ref\DarjeelingClubApp.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\ClubApp\bin\Debug\net6.0\config.json
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\appsettings.Development.json
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\appsettings.json
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\config.json
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\libman.json
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\DarjeelingClubApp.staticwebassets.runtime.json
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\DarjeelingClubApp.exe
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\DarjeelingClubApp.deps.json
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\DarjeelingClubApp.runtimeconfig.json
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\DarjeelingClubApp.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\DarjeelingClubApp.pdb
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\Humanizer.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\MessagePack.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\MessagePack.Annotations.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\Microsoft.AspNetCore.Razor.Language.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\Microsoft.Build.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\Microsoft.Build.Framework.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\Microsoft.CodeAnalysis.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Features.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\Microsoft.CodeAnalysis.Features.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\Microsoft.CodeAnalysis.Razor.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\Microsoft.CodeAnalysis.Scripting.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\Microsoft.CodeAnalysis.VisualBasic.Features.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\Microsoft.CodeAnalysis.VisualBasic.Workspaces.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\Microsoft.CodeAnalysis.Workspaces.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\Microsoft.DiaSymReader.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\Microsoft.DotNet.Scaffolding.Shared.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\Microsoft.NET.StringTools.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\Microsoft.VisualStudio.Debugger.Contracts.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\dotnet-aspnet-codegenerator-design.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\Nancy.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\Nancy.Serialization.JsonNet.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\Newtonsoft.Json.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\NuGet.Common.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\NuGet.Configuration.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\NuGet.DependencyResolver.Core.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\NuGet.Frameworks.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\NuGet.LibraryModel.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\NuGet.Packaging.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\NuGet.ProjectModel.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\NuGet.Protocol.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\NuGet.Versioning.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\RazorPay Core.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\Syncfusion.EJ2.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\Syncfusion.Licensing.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\System.Composition.AttributedModel.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\System.Composition.Convention.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\System.Composition.Hosting.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\System.Composition.Runtime.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\System.Composition.TypedParts.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\System.Data.SqlClient.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\System.Drawing.Common.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\System.Security.Permissions.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\System.Windows.Extensions.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Features.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Features.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Features.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Features.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Features.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Features.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Features.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Features.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Features.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Features.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Features.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Features.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Features.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\obj\Debug\net6.0\DarjeelingClubApp.csproj.AssemblyReference.cache
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\obj\Debug\net6.0\DarjeelingClubApp.GeneratedMSBuildEditorConfig.editorconfig
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\obj\Debug\net6.0\DarjeelingClubApp.AssemblyInfoInputs.cache
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\obj\Debug\net6.0\DarjeelingClubApp.AssemblyInfo.cs
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\obj\Debug\net6.0\DarjeelingClubApp.csproj.CoreCompileInputs.cache
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\obj\Debug\net6.0\DarjeelingClubApp.MvcApplicationPartsAssemblyInfo.cs
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\obj\Debug\net6.0\DarjeelingClubApp.MvcApplicationPartsAssemblyInfo.cache
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\obj\Debug\net6.0\DarjeelingClubApp.RazorAssemblyInfo.cache
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\obj\Debug\net6.0\DarjeelingClubApp.RazorAssemblyInfo.cs
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\obj\Debug\net6.0\staticwebassets.build.json
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\obj\Debug\net6.0\staticwebassets.development.json
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\obj\Debug\net6.0\staticwebassets\msbuild.DarjeelingClubApp.Microsoft.AspNetCore.StaticWebAssets.props
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\obj\Debug\net6.0\staticwebassets\msbuild.build.DarjeelingClubApp.props
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.DarjeelingClubApp.props
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.DarjeelingClubApp.props
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\obj\Debug\net6.0\staticwebassets.pack.json
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\obj\Debug\net6.0\scopedcss\bundle\DarjeelingClubApp.styles.css
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\obj\Debug\net6.0\scopedcss\projectbundle\DarjeelingClubApp.bundle.scp.css
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\obj\Debug\net6.0\Darjeeli.5382E462.Up2Date
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\obj\Debug\net6.0\DarjeelingClubApp.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\obj\Debug\net6.0\refint\DarjeelingClubApp.dll
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\obj\Debug\net6.0\DarjeelingClubApp.pdb
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\obj\Debug\net6.0\DarjeelingClubApp.genruntimeconfig.cache
+E:\project\Clubs Software\KOL_GYMKHANA\app\testapp\obj\Debug\net6.0\ref\DarjeelingClubApp.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\appsettings.Development.json
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\appsettings.json
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\config.json
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\libman.json
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\DarjeelingClubApp.staticwebassets.runtime.json
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\DarjeelingClubApp.staticwebassets.endpoints.json
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\DarjeelingClubApp.exe
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\DarjeelingClubApp.deps.json
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\DarjeelingClubApp.runtimeconfig.json
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\DarjeelingClubApp.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\DarjeelingClubApp.pdb
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\Humanizer.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\MessagePack.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\MessagePack.Annotations.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\Microsoft.AspNetCore.Razor.Language.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\Microsoft.CodeAnalysis.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Features.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\Microsoft.CodeAnalysis.Features.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\Microsoft.CodeAnalysis.Razor.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\Microsoft.CodeAnalysis.Scripting.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\Microsoft.DiaSymReader.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\Microsoft.DotNet.Scaffolding.Shared.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\Microsoft.VisualStudio.Debugger.Contracts.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\dotnet-aspnet-codegenerator-design.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\Nancy.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\Nancy.Serialization.JsonNet.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\NuGet.Common.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\NuGet.Configuration.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\NuGet.DependencyResolver.Core.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\NuGet.Frameworks.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\NuGet.LibraryModel.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\NuGet.Packaging.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\NuGet.ProjectModel.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\NuGet.Protocol.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\NuGet.Versioning.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\RazorPay Core.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\Syncfusion.EJ2.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\Syncfusion.Licensing.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\System.Composition.AttributedModel.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\System.Composition.Convention.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\System.Composition.Hosting.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\System.Composition.Runtime.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\System.Composition.TypedParts.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\System.Data.SqlClient.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Features.resources.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Features.resources.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Features.resources.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Features.resources.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Features.resources.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Features.resources.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Features.resources.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Features.resources.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Features.resources.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Features.resources.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Features.resources.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Features.resources.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Features.resources.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\ajay sir\testapp\testapp\obj\Debug\net6.0\DarjeelingClubApp.csproj.AssemblyReference.cache
+D:\ajay sir\testapp\testapp\obj\Debug\net6.0\rpswa.dswa.cache.json
+D:\ajay sir\testapp\testapp\obj\Debug\net6.0\DarjeelingClubApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\ajay sir\testapp\testapp\obj\Debug\net6.0\DarjeelingClubApp.AssemblyInfoInputs.cache
+D:\ajay sir\testapp\testapp\obj\Debug\net6.0\DarjeelingClubApp.AssemblyInfo.cs
+D:\ajay sir\testapp\testapp\obj\Debug\net6.0\DarjeelingClubApp.csproj.CoreCompileInputs.cache
+D:\ajay sir\testapp\testapp\obj\Debug\net6.0\DarjeelingClubApp.MvcApplicationPartsAssemblyInfo.cs
+D:\ajay sir\testapp\testapp\obj\Debug\net6.0\DarjeelingClubApp.MvcApplicationPartsAssemblyInfo.cache
+D:\ajay sir\testapp\testapp\obj\Debug\net6.0\DarjeelingClubApp.RazorAssemblyInfo.cache
+D:\ajay sir\testapp\testapp\obj\Debug\net6.0\DarjeelingClubApp.RazorAssemblyInfo.cs
+D:\ajay sir\testapp\testapp\obj\Debug\net6.0\rjimswa.dswa.cache.json
+D:\ajay sir\testapp\testapp\obj\Debug\net6.0\rjsmrazor.dswa.cache.json
+D:\ajay sir\testapp\testapp\obj\Debug\net6.0\rjsmcshtml.dswa.cache.json
+D:\ajay sir\testapp\testapp\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\ajay sir\testapp\testapp\obj\Debug\net6.0\scopedcss\bundle\DarjeelingClubApp.styles.css
+D:\ajay sir\testapp\testapp\obj\Debug\net6.0\scopedcss\projectbundle\DarjeelingClubApp.bundle.scp.css
+D:\ajay sir\testapp\testapp\obj\Debug\net6.0\staticwebassets.build.json
+D:\ajay sir\testapp\testapp\obj\Debug\net6.0\staticwebassets.build.json.cache
+D:\ajay sir\testapp\testapp\obj\Debug\net6.0\staticwebassets.development.json
+D:\ajay sir\testapp\testapp\obj\Debug\net6.0\staticwebassets.build.endpoints.json
+D:\ajay sir\testapp\testapp\obj\Debug\net6.0\staticwebassets.upToDateCheck.txt
+D:\ajay sir\testapp\testapp\obj\Debug\net6.0\Darjeeli.5382E462.Up2Date
+D:\ajay sir\testapp\testapp\obj\Debug\net6.0\DarjeelingClubApp.dll
+D:\ajay sir\testapp\testapp\obj\Debug\net6.0\refint\DarjeelingClubApp.dll
+D:\ajay sir\testapp\testapp\obj\Debug\net6.0\DarjeelingClubApp.pdb
+D:\ajay sir\testapp\testapp\obj\Debug\net6.0\DarjeelingClubApp.genruntimeconfig.cache
+D:\ajay sir\testapp\testapp\obj\Debug\net6.0\ref\DarjeelingClubApp.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\System.Formats.Asn1.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\System.Security.Cryptography.Pkcs.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\af\Humanizer.resources.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\ar\Humanizer.resources.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\az\Humanizer.resources.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\bg\Humanizer.resources.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\bn-BD\Humanizer.resources.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\cs\Humanizer.resources.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\da\Humanizer.resources.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\de\Humanizer.resources.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\el\Humanizer.resources.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\es\Humanizer.resources.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\fa\Humanizer.resources.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\fi-FI\Humanizer.resources.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\fr\Humanizer.resources.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\fr-BE\Humanizer.resources.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\he\Humanizer.resources.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\hr\Humanizer.resources.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\hu\Humanizer.resources.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\hy\Humanizer.resources.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\id\Humanizer.resources.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\is\Humanizer.resources.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\it\Humanizer.resources.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\ja\Humanizer.resources.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\ko-KR\Humanizer.resources.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\ku\Humanizer.resources.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\lv\Humanizer.resources.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\ms-MY\Humanizer.resources.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\mt\Humanizer.resources.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\nb\Humanizer.resources.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\nb-NO\Humanizer.resources.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\nl\Humanizer.resources.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\pl\Humanizer.resources.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\pt\Humanizer.resources.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\ro\Humanizer.resources.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\ru\Humanizer.resources.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\sk\Humanizer.resources.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\sl\Humanizer.resources.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\sr\Humanizer.resources.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\sr-Latn\Humanizer.resources.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\sv\Humanizer.resources.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\th-TH\Humanizer.resources.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\tr\Humanizer.resources.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\uk\Humanizer.resources.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\uz-Cyrl-UZ\Humanizer.resources.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\uz-Latn-UZ\Humanizer.resources.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\vi\Humanizer.resources.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\zh-CN\Humanizer.resources.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\zh-Hans\Humanizer.resources.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\zh-Hant\Humanizer.resources.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.Pkcs.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\Rotativa.AspNetCore.dll
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\Rotativa\wkhtmltopdf.exe
+D:\ajay sir\testapp\testapp\bin\Debug\net6.0\wwwroot\Rotativa\wkhtmltopdf.exe

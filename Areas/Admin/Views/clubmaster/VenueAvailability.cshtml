@@ -1,0 +1,136 @@
+﻿@{
+	ViewData["Title"] = "VenueAvailability";
+	Layout = "~/Areas/Admin/Views/Shared/_MainLayout.cshtml";
+}
+
+<div class="container-fluid">
+	<br>
+	<div class="card shadow mb-4">
+		<div class="card-header py-3">
+			<h6 class="m-0 font-weight-bold text-primary">Available Venue Reports</h6>
+		</div>
+		<div class="card-body">
+			<div class="row">
+			</div>
+			<div class="row">
+				<input type="hidden" id="id" value="0" />
+				<div class="col-md-4">
+					<div class="form-group">
+						<label class="font-weight-700 font-size-16">Venue Name</label>
+						<select id="ddlvenueid" class="form-control" tabindex="1" >
+							<option value="0">Select Venue Name</option>
+							@if (ViewBag.Categoryobj != null)
+							{
+								foreach (var item in ViewBag.Categoryobj as List<SelectListItem>)
+								{
+									<option value="@item.Value">@item.Text</option>
+								}
+							}
+						</select>
+					</div>
+				</div>
+
+				@*<div class="col-md-4">
+					<div class="form-group">
+						<label class="font-weight-700 font-size-16">Venue Type </label>
+						<select id="ddlvenuetypeid" class="form-control" tabindex="1">
+							<option value="0">Select Venue Type</option>
+						</select>
+					</div>
+				</div>*@
+
+				<div class="col-md-4">
+					<div class="form-group">
+						<label class="font-weight-700 font-size-16">From Date</label>
+						<input type="date" class="form-control" id="txtdate1" onchange="ShowDataInTable()" />
+					</div>
+				</div>
+
+				<div class="col-md-4">
+					<div class="form-group">
+						<label class="font-weight-700 font-size-16">To Date</label>
+						<input type="date" class="form-control" id="txtdate2" onchange="ShowDataInTable()" />
+					</div>
+				</div>
+
+			</div>
+			<div class="form-actions mt-10">
+				<input type="button" class="btn btn-primary" id="btnsave" onclick="ShowDataInTable()"
+					   value="Show" />
+			</div>
+		</div>
+	</div>
+	<div class="col-md-12">
+		<table id="data-table" class="table table-bordered">
+			<thead>
+				<tr>
+					<th>Venue Name</th>
+					<th>Venue Type</th>
+					
+				</tr>
+			</thead>
+			<tbody class="SubCategorybody"></tbody>
+		</table>
+	</div>
+</div>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="~/js/Todaydate_NowTime.js"></script>
+@*<script src="~/js/BookingReport.js"></script>*@
+<link href="~/Content/bootstrap.css" rel="stylesheet" />
+<script type="text/javascript">
+	Todaydate();
+	ShowDataInTable();
+
+	$(document).ready(function() {
+		todaydate = Todaydate();
+		$("#txtdate1").val(todaydate);
+		$("#txtdate2").val(todaydate);
+		ShowDataInTable();
+	})
+
+	//function Bindvenuetypeid() {
+	//	$.ajax({
+	//		type: "GET",
+	//		url: '/Admin/ClubApp/VenueTypeAvlbleReportBind',
+	//		data: { id: $("#ddlvenueid").val() },
+	//		async: false,
+	//		success: function(json, result) {
+	//			$("#ddlvenuetypeid").empty();
+	//			json = json || {};
+	//			$("#ddlvenuetypeid").append('<option value="0">Select Venue Type</option>');
+	//			for (var i = 0; i < json.length; i++) {
+	//				$("#ddlvenuetypeid").append('<option value="' + json[i].value + '">' + json[i].text + '</option>');
+	//			}
+	//		},
+	//		error: function(errormessage) {
+	//			alert(errormessage.responseText);
+	//		}
+	//	});
+	//}
+
+	function ShowDataInTable() {
+		$.ajax({
+			url: '/Admin/ClubApp/ShowVenueAvailability',
+			dataType: 'JSON',
+			data: { venueid: $("#ddlvenueid").val(), VENUE_DATE1: $("#txtdate1").val(), VENUE_DATE2: $("#txtdate2").val() },
+			type: 'GET',
+			contentType: 'application/json; charset=utf-8',
+			success: function(data) {
+				console.log(data);
+				var html = '';
+				var index = 1;
+				$.each(data, function(key, item) {
+					html += '<tr class="hover-primary">';
+					html += '<td>' + item.venueName + '</td>';
+					html += '<td>' + item.name + '</td>';
+					html += '</tr>';
+					index++;
+				});
+				$('.SubCategorybody').html(html);
+			}
+		});
+	}
+
+</script>
+

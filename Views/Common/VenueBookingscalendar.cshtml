@@ -1,0 +1,191 @@
+﻿
+@{
+    ViewData["Title"] = "VenueBookingscalendar";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, shrink-to-fit=no, viewport-fit=cover">
+
+    <link rel="apple-touch-icon" href="/img/f7-icon-square.html">
+    <link rel="icon" href="/img/f7-icon.html">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="/member/vendor/bootstrap-4.1.3/css/bootstrap.min.css">
+
+    <!-- Material design icons CSS -->
+    <link rel="stylesheet" href="/member/vendor/materializeicon/material-icons.css">
+
+    <!-- swiper carousel CSS -->
+    <link rel="stylesheet" href="/member/vendor/swiper/css/swiper.min.css">
+
+    <!-- app CSS -->
+    <link id="theme" rel="stylesheet" href="/css/style.css" type="text/css">
+    <link href="/member/main/css/mobiscroll.javascript.min.css" rel="stylesheet">
+    <script src="/member/main/js/mobiscroll.javascript.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.33/moment-timezone-with-data.min.js"></script>
+    <title>Booking calander</title>
+    <style type="text/css">
+        .md-timezone-header .mbsc-textfield-wrapper {
+            margin: 0.5em;
+        }
+
+        .mbsc-calendar-text.mbsc-ios.mbsc-ltr.mbsc-calendar-label.mbsc-calendar-label-start.mbsc-calendar-label-end, .mbsc-calendar-label-resize.mbsc-calendar-label-resize-start.mbsc-ltr, .mbsc-calendar-labels {
+            display: block !important;
+        }
+
+
+        .mbsc-calendar-cell.mbsc-flex-1-0-0.mbsc-calendar-day.mbsc-ios.mbsc-ltr.mbsc-calendar-day-labels div:nth-child(1) {
+            display: none;
+        }
+
+        .mbsc-calendar-cell.mbsc-flex-1-0-0.mbsc-calendar-day.mbsc-ios.mbsc-ltr.mbsc-calendar-day-labels.mbsc-calendar-day-outer {
+            display: block !important;
+        }
+
+        .mbsc-calendar-cell-text.mbsc-calendar-day-text.mbsc-ios {
+            display: block !important;
+        }
+
+        .md-timezone-header {
+            display: flex;
+            align-items: center;
+            margin-left: auto;
+        }
+    </style>
+</head>
+
+<body class="color-theme-blue">
+    <div class="wrapper">
+        <!-- page main start -->
+        <div class="page">
+            <div class="page-content h-100">
+                <div class="page-content">
+                    <div class="content-sticky-footer pt-2" style="background-color: #f6fafa;">
+
+                        <div class="col-12 mb-4">
+                            <div class="row">
+                                <div class="col-12"><a href="/Common/home" class="menu-left-close inner_back block-title"><i class="material-icons">keyboard_arrow_left</i></a><h2 class="block-title inner_title">Venue Bookings</h2></div>
+                            </div>
+                        </div>
+                        <div class="row mx-0 ">
+                            <div class="col-12 mb-4">
+                                <div mbsc-page="" class="demo-multiple-timezone-support" style="width:100%;">
+                                    <div style="height:100%">
+                                        <div id="demo-showing-events-timezone"></div>
+                                        <ul class="all_clear">
+                                            <li><span class="red">•</span> Booked</li>
+                                            <li><span class="green">•</span> Available</li>
+                                            <li><span class="orange">•</span> Blocked</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <form class="form-group Venue_date col-12">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <h4>Seelcted Date</h4>
+                                    </div>
+
+                                    <div class="col-6">
+                                        <input class="form-control login_input border-0 text-justify main_green" readonly="" type="" name="" placeholder="15 Mar to 16 Mar">
+                                        <br>
+                                    </div>
+                                    <br>
+                                    <div class="col-6">
+                                        <a href="" class="btn login_btn border-0 z-3" style="background: #FEA83B;">Blocked</a>
+                                    </div>
+                                    <div class="col-6">
+                                        <a href="" data-toggle="modal" data-target="#book" class="btn login_btn border-0 z-3">Book</a>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+
+                    </div>
+                    <br>
+                </div>
+            </div>
+            <!-- page main ends -->
+        </div>
+        <div class="modal fade bottom main_venue" id="book" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content ">
+                    <div class="modal-body">
+                        <div class="text-center theme-color">
+                            <p class="text-uppercase font-weight-bold text-dark text-center">Are You Sure To Block Date</p>
+                            <form class="form-group">
+                                <div class="row">
+                                    <div class="col-1"></div>
+                                    <div class="col-10">
+                                        <input class="form-control login_input border-0 text-center main_green" readonly="" type="" name="" placeholder="15 Mar to 16 Mar">
+                                        <br>
+                                    </div>
+                                    <div class="col-6">
+                                        <a href="" class="btn login_btn border-0 z-3" style="background: #F8FBFF; color: blue;padding: 9px 0px;">Blocked</a>
+                                    </div>
+                                    <div class="col-6">
+                                        <a href="" class="btn login_btn border-0 z-3" style="padding: 9px 0px;">Book</a>
+                                    </div>
+                                </div>
+
+                            </form>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="/member/js/jquery-3.2.1.min.js"></script>
+        <script src="/member/js/popper.min.js"></script>
+        <script src="/member/vendor/bootstrap-4.1.3/js/bootstrap.min.js"></script>
+
+        <!-- Cookie jquery file -->
+        <script src="/member/vendor/cookie/jquery.cookie.js"></script>
+
+        <!-- sparklines chart jquery file -->
+        <script src="/member/vendor/sparklines/jquery.sparkline.min.js"></script>
+
+        <!-- Circular progress gauge jquery file -->
+        <script src="/member/vendor/circle-progress/circle-progress.min.js"></script>
+
+        <!-- Swiper carousel jquery file -->
+        <script src="/member/vendor/swiper/js/swiper.min.js"></script>
+
+        <!-- Application main common jquery file -->
+        <script src="/member/js/main.js"></script>
+
+        <!-- page specific script -->
+
+
+
+        <script type="text/javascript">// Get the container element
+var btnContainer = document.getElementById("myDIV");
+
+// Get all buttons with class="btn" inside the container
+var btns = btnContainer.getElementsByClassName("btn");
+
+// Loop through the buttons and add the active class to the current/clicked button
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}</script>
+
+
+
+
+    </div>
+</body>
+</html>
+

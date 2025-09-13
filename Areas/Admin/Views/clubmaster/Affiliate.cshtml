@@ -1,0 +1,88 @@
+﻿@{
+    ViewData["Title"] = "Affiliate";
+    Layout = "~/Areas/Admin/Views/Shared/_MainLayout.cshtml";
+
+
+}
+
+<div class="container-fluid">
+    <br>
+    <div class="card shadow mb-4">
+        <div class="card-header py-3">
+            <h6 class="m-0 font-weight-bold text-primary">Affiliated Club Master</h6>
+        </div>
+        <div class="card-body">
+            <div class="row">
+            </div>
+            <div class="row">
+                <input type="hidden" id="id" value="0" />
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label class="font-weight-700 font-size-16">Club Name</label>
+                        <input type="text" placeholder="Enter Club Name" class="form-control" id="txtclubname" />
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label class="font-weight-700 font-size-16">Address</label>
+                        <input type="text" placeholder="Enter Address" class="form-control" id="txtaddress" />
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label class="font-weight-700 font-size-16">Email</label>
+                        <input type="text" placeholder="Enter Email" class="form-control" id="txtemail" />
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label class="font-weight-700 font-size-16">Contact</label>
+                        <input type="text" placeholder="Enter Contact" class="form-control" id="txtcontact" />
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label class="font-weight-700 font-size-16" style="margin-top: 40px;">Status</label>
+                        <input type="checkbox" id="chkStatus" name="status" checked />  Active
+                    </div>
+                </div>
+                <div class="form-actions mt-10" style="margin-top:40px;" id="btnsv">
+                    <input type="submit" class="btn btn-primary" id="btnsave" onclick="IUAffiliate()"
+                           value="Save" />
+                </div>
+
+                <div class="form-actions mt-10" style="margin-top:40px;display:none" id="btnupdt">
+                    <input type="submit" class="btn btn-primary" id="btnupdate" onclick="IUUpdateAffiliate()"
+                           value="Update" />
+                </div>
+            </div>
+        </div>
+        <div class="col-md-12">
+            <table id="data-table" class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>Club Name</th>
+                        <th>Address</th>
+                        <th>Email</th>
+                        <th>Contact</th>
+                        <th>Status</th>
+                        <th>Edit</th>
+                        <th>Delete</th>
+                    </tr>
+                </thead>
+                <tbody class="SubCategorybody"></tbody>
+            </table>
+        </div>
+    </div>
+
+</div>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="~/js/Affiliate.js"></script>
+<link href="~/Content/bootstrap.css" rel="stylesheet" />
+<script type="text/javascript">
+    ShowDataInTable();
+</script>

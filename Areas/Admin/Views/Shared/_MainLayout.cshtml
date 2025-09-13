@@ -1,0 +1,318 @@
+﻿@*@using Microsoft.AspNetCore.Http;
+
+@inject IHttpContextAccessor HttpContextAccessor*@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewData["Title"]</title>
+    <link href="/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+          rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Custom styles for this template-->
+    <link href="/css/sb-admin-2.min.css" rel="stylesheet">
+    <link href="/vendor/datatables/dataTables.bootstrap4.min.css" rel="stylesheet">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+</head>
+<body id="page-top">
+
+    <!-- Page Wrapper -->
+    <div id="wrapper">
+
+        <!-- Sidebar -->
+        <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" style="width:16rem!important;" id="accordionSidebar">
+
+            <!-- Sidebar - Brand -->
+            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="/Admin/DashBoard">
+                <div class="sidebar-brand-text mx-3" href="Admin/DashBoard"><span class="mr-2 d-none d-lg-inline text-gray-600 small">Hello </span>@*<img src="~/Img/University_logostandard-BLUE-copy.png" style="width: 190px;">*@</div>
+            </a>
+
+            <!-- Divider -->
+            <hr class="sidebar-divider my-0">
+
+            <!-- Nav Item - Dashboard -->
+            @*<li class="nav-item">
+                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#Master" aria-expanded="false" aria-controls="Admin"><span>Masters</span></a>
+                <div id="Master" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+                    <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#ItemMenu" aria-expanded="false" aria-controls="Admin"><span>Item Menu</span></a>
+                    <div id="ItemMenu" class="collapse" aria-labelledby="headingTwo" data-parent="#ItemMenu">
+                        <a class="nav-link" asp-area="Admin" asp-controller="ClubApp" asp-action="ItemMaster"><span>Item Master </span></a>
+                        <a class="nav-link" href='/Admin/ClubApp/ItemGroup'><span>Group Master</span></a>
+                        <a class="nav-link" href='/Admin/ClubApp/ItemSubGroup'><span>Sub Group Master</span></a>
+                    </div>
+                    <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#GeneralMenu" aria-expanded="false" aria-controls="Admin"><span>General Master</span></a>
+                    <div id="GeneralMenu" class="collapse" aria-labelledby="headingTwo" data-parent="#GeneralMenu">
+                        <a class="nav-link" asp-area="Admin" asp-controller="ClubApp" asp-action="EVent"><span>Event Master </span></a>
+                        <a class="nav-link" href='/Admin/ClubApp/Affiliate'><span>Affiliated Clubs Master</span></a>
+                        <a class="nav-link" href='/Admin/ClubApp/ManagingCommitte'><span>Management Committe</span></a>
+                        <a class="nav-link" href='/Admin/ClubApp/Gallery'><span>Gallery</span></a>
+                        <a class="nav-link" href='/Admin/ClubApp/CMS_DROPDOWN'><span>Content Management System</span></a>
+                    </div>
+                    <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#Venue" aria-expanded="false" aria-controls="Admin"><span>Venue</span></a>
+                    <div id="Venue" class="collapse" aria-labelledby="headingTwo" data-parent="#Venue">
+                        <a class="nav-link" asp-area="Admin" asp-controller="ClubApp" asp-action="Venue"><span>Block A Venue</span></a>
+                        <a class="nav-link" href='/Admin/ClubApp/VenueMaster'><span>Venue Master</span></a>
+                        <a class="nav-link" href='/Admin/ClubApp/TypeVenue'><span>Venue Type Master</span></a>
+                    </div>
+                </div>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#Transactions" aria-expanded="false" aria-controls="ClubApp"><span>Transactions</span></a>
+                <div id="Transactions" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+                    <a class="nav-link" asp-area="Admin" asp-controller="ClubApp" asp-action="TranVenue"><span>Book A Venue</span></a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#Report" aria-expanded="false" aria-controls="ClubApp"><span>Reports</span></a>
+                <div id="Report" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+                    <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#VenueReport" aria-expanded="false" aria-controls="ClubApp"><span>Venue Reports</span></a>
+                    <div id="VenueReport" class="collapse" aria-labelledby="headingTwo" data-parent="#VenueReport">
+                        <a class="nav-link" asp-area="Admin" asp-controller="ClubApp" asp-action="VenueReport"><span>Bookings</span></a>
+                        <a class="nav-link" asp-area="Admin" asp-controller="ClubApp" asp-action="CancelBooking"><span>Cancellations</span></a>
+                        <a class="nav-link" asp-area="Admin" asp-controller="ClubApp" asp-action="BookingReports"><span>Availability</span></a>
+                    </div>
+
+                    <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#Members" aria-expanded="false" aria-controls="ClubApp"><span>Members</span></a>
+                    <div id="Members" class="collapse" aria-labelledby="headingTwo" data-parent="#Members">
+                        <a class="nav-link" asp-area="Admin" asp-controller="ClubApp" asp-action="MemberBillReport"><span>Bills</span></a>
+                        <a class="nav-link" asp-area="Admin" asp-controller="ClubApp" asp-action="OTPReport"><span>OTP Reports</span></a>
+                    </div>
+            Admin/ClubApp/OTPReport
+                </div>
+            </li>*@
+
+
+            @await Component.InvokeAsync("Left")
+           
+        </ul>
+        <!-- End of Sidebar -->
+        <!-- Content Wrapper -->
+        <div id="content-wrapper" class="d-flex flex-column">
+            <div id="content">
+                <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+                    <!-- Sidebar Toggle (Topbar) -->
+                    <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
+                        <i class="fa fa-bars"></i>
+                    </button>
+                    <!-- Topbar Navbar -->
+                    <ul class="navbar-nav ml-auto">
+                        <!-- Nav Item - Search Dropdown (Visible Only XS) -->
+                        <li class="nav-item dropdown no-arrow d-sm-none">
+                            <a class="nav-link dropdown-toggle" href="#" id="searchDropdown" role="button"
+                               data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="fas fa-search fa-fw"></i>
+                            </a>
+                            <!-- Dropdown - Messages -->
+                            <div class="dropdown-menu dropdown-menu-right p-3 shadow animated--grow-in"
+                                 aria-labelledby="searchDropdown">
+                                <form class="form-inline mr-auto w-100 navbar-search">
+                                    <div class="input-group">
+                                        <input type="text" class="form-control bg-light border-0 small"
+                                               placeholder="Search for..." aria-label="Search"
+                                               aria-describedby="basic-addon2">
+                                        <div class="input-group-append">
+                                            <button class="btn btn-primary" type="button">
+                                                <i class="fas fa-search fa-sm"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </li>
+                        <div class="topbar-divider d-none d-sm-block"></div>
+                        <!-- Nav Item - User Information -->
+                        <li class="nav-item dropdown no-arrow">
+                            <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
+                               data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <span class="mr-2 d-none d-lg-inline text-gray-600 small">Logout </span>
+                                @*<img class="/img-profile rounded-circle" alt="@HttpContextAccessor.HttpContext.Session.GetString("Username")" src="/img/dummy-pic.png"/>*@
+                            </a>
+                            <!-- Dropdown - User Information -->
+                            <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in"
+                                 aria-labelledby="userDropdown">
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="/Admin/Master/Logout/">
+                                    <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
+                                    Logout
+                                </a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown no-arrow">
+                            <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
+                               data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <span class="mr-2 d-none d-lg-inline text-gray-600 small">Change Password </span>
+                                @*<img class="/img-profile rounded-circle" alt="@HttpContextAccessor.HttpContext.Session.GetString("Username")" src="/img/dummy-pic.png"/>*@
+                            </a>
+                            <!-- Dropdown - User Information -->
+                            <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in"
+                                 aria-labelledby="userDropdown">
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="/Admin/ChangePass/ChangePassword/">
+                                    <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
+                                    Change Password
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+                @RenderBody()
+            </div>
+            <!-- Footer -->
+            <footer class="sticky-footer bg-white">
+                <div class="container my-auto">
+                    <div class="copyright text-center my-auto">
+                        <span>Copyright &copy; Your Website 2022</span>
+                    </div>
+                </div>
+            </footer>
+            <!-- End of Footer -->
+        </div>
+        <!-- End of Content Wrapper -->
+    </div>
+    <!-- End of Page Wrapper -->
+    <!-- Scroll to Top Button-->
+    <a class="scroll-to-top rounded" href="#page-top">
+        <i class="fas fa-angle-up"></i>
+    </a>
+
+    <!-- Logout Modal-->
+    <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+         aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">×</span>
+                    </button>
+                </div>
+                <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
+                <div class="modal-footer">
+                    <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+                    <a class="btn btn-primary" href="/Admin/Adm_login">Logout</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.min.css">
+    <script type="text/javascript" language="javascript" src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    @* <script src="~/js/SweatAlert/jquery.dataTables.min.js"></script>
+    <script type="text/javascript" src="~/js/SweatAlert/sweartnew.js"></script>*@
+    <script src="/vendor/jquery/jquery.min.js"></script>
+    <script src="/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom scripts for all pages-->
+    <script src="/js/sb-admin-2.min.js"></script>
+    <!-- Page level plugins -->
+    <script src="/vendor/datatables/jquery.dataTables.min.js"></script>
+    <script src="/vendor/datatables/dataTables.bootstrap4.min.js"></script>
+    <!-- Page level custom scripts -->
+    <script src="/js/demo/datatables-demo.js"></script>
+
+    @* <script src="~/js/custom1.js"></script>*@
+    <script>
+
+          function CreateTableFromArray(arrItems, divid) {
+            let col = [];
+            for (let i = 0; i < arrItems.length; i++) {
+                for (let key in arrItems[i]) {
+                    if (col.indexOf(key) === -1) {
+                        col.push(key);
+                    }
+                }
+            }
+
+            // Create a Table.
+            let table = document.createElement("table");
+            table.setAttribute('id', 'data-table');
+            table.setAttribute('class', 'table table-bordered');
+            // Create table header row.
+
+            let tr = table.insertRow(-1);		// table row.
+
+            for (let i = 0; i < col.length; i++) {
+                let th = document.createElement('th');  // table header.
+                //console.log(col[i]);
+                var allin = col[i].includes("_left") == true ? 'left' : col[i].includes("_right") == true ? 'right' : 'center';
+                th.innerHTML = col[i].replace('_left', '').replace('_right', '');
+                var result = col[i].includes("Hid_") == true ? 'none' : '';
+                tr.appendChild(th);
+                th.setAttribute('style',
+                    'font:18px Calibri;border: solid 1px #DDD;' +
+                    'border-collapse: collapse; font-weight:bold;' +
+                    'padding: 2px 3px; text-align: ' + allin + ';' +
+                    'display:' + result + ';'
+                );
+
+            }
+
+            // Add JSON to the table as rows.
+            for (let z = 0; z < arrItems.length; z++) {
+                tr = table.insertRow(-1);
+
+                for (let j = 0; j < col.length; j++) {
+                    let tabCell = tr.insertCell(-1);
+                    var result = col[j].includes("Hid_") == true ? 'none' : '';
+                    tabCell.innerHTML = arrItems[z][col[j]];
+                   // console.log(parseFloat(arrItems[z][col[j]]));
+                    var alln = isNaN(parseFloat(arrItems[z][col[j]])) ? 'center' : 'center';
+                    tabCell.setAttribute('style',
+                        'font:18px Calibri;border: solid 1px #DDD;' +
+                        'border-collapse: collapse; ' +
+                        'padding: 2px 3px; text-align: ' + alln + ';' +
+                        'display:' + result + ';'
+                    );
+                    tabCell.setAttribute('class', "" + col[j].replace(" ", "") + "");
+                    tabCell.setAttribute('id', "" + col[j].replace(" ", "") + "" + z + "");
+
+                }
+            }
+
+            // Show the table.
+            let container = document.getElementById('' + divid + '');
+            container.innerHTML = '';
+            container.appendChild(table);
+
+
+            //jQuery.noConflict();
+            //(function ($jq) {
+            //    var myTable = $jq("#data-table");
+            //    var thead = myTable.find("thead");
+            //    var thRows = myTable.find("tr:has(th)");
+            //    if (thead.length === 0) {  //if there is no thead element, add one.
+            //        thead = $jq("<thead></thead>").appendTo(myTable);
+            //    }
+            //    var copy = thRows.clone(true).appendTo("thead");
+            //    thRows.remove();
+            //    myTable.dataTable();
+            //})(jQuery);
+
+
+        }
+        function initMenu() {
+            $('#menu ul').hide();
+            $('#menu ul').children('.current').parent().show();
+            $('#menu ul:first').show();
+            $('#menu li a').click(
+                function () {
+                    var checkElement = $(this).next();
+                    if ((checkElement.is('ul')) && (checkElement.is(':visible'))) {
+                        return false;
+                    }
+                    if ((checkElement.is('ul')) && (!checkElement.is(':visible'))) {
+                        $('#menu ul:visible').slideUp('normal');
+                        checkElement.slideDown('normal');
+                        return false;
+                    }
+                }
+            );
+        }
+        $(document).ready(function () {
+            initMenu();
+            //$("#btnSubmit").hide();
+        });
+    </script>
+</body>
+</html>

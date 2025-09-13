@@ -1,0 +1,9 @@
+{
+  "API_KEY": "B16B0F26C2E457795379D141A79DAD",
+  "MERCHANT_ID": "54978",
+  "PAYMENT_PAGE_CLIENT_ID": "54978",
+  "BASE_URL": "https://smartgateway.hdfcbank.com",
+  "ENABLE_LOGGING": true,
+  "LOGGING_PATH": "./logs/PaymentHandler.log",
+  "RESPONSE_KEY": "ABBD3B55E3645479AEE68D48880900"
+}

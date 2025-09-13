@@ -1,0 +1,174 @@
+﻿@model DarjeelingClubApp.Areas.Admin.Models.ReminderModel
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Darjeeling Gymkhana Club Ltd. - First Reminder</title>
+
+    <style>
+        @@import url('https://fonts.cdnfonts.com/css/mv-boli');
+        @@import url('https://fonts.cdnfonts.com/css/stencil');
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 20px;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+            line-height: 1.5;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+            .header img {
+                width: 100px;
+                height: auto;
+            }
+
+            .header h1 {
+                margin: 0;
+                font-size: 34px;
+                text-transform: uppercase;
+                margin-top: -41px;
+            }
+
+        .contact-info {
+            font-size: 12px;
+            text-align: right;
+            margin-top: 10px;
+        }
+
+        .ref-date {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+            font-size: 12px;
+        }
+
+        .title {
+            text-align: center;
+            font-weight: bold;
+            font-size: 18px;
+            margin-bottom: 0px;
+        }
+
+        .to-address {
+            font-family: 'MV Boli', sans-serif;
+            margin-bottom: 20px;
+        }
+
+        .content {
+            margin-bottom: 20px;
+            font-size: 13px;
+        }
+
+        .bank-details {
+            margin-bottom: 20px;
+        }
+
+            .bank-details ul {
+                list-style-type: none;
+                padding-left: 0;
+            }
+
+        .qr-code {
+            float: right;
+            width: 150px;
+            height: auto;
+            margin-left: 20px;
+        }
+
+        h1 {
+            font-family: 'Stencil', sans-serif;
+        }
+
+        .footer {
+            clear: both;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img src="https://darjeelinggymkhanaclub.com/wp-content/uploads/2022/03/gymkhana-new-logo-150x150.png" style="position: relative;margin: 0px 0px -84px -687px;" alt="Darjeeling Gymkhana Club Logo">
+        <h1>DARJEELING GYMKHANA CLUB LTD.</h1>
+        <div class="contact-info">
+            Ph. No: 2254342/2252892<br>
+            E-Mail: darjeelinggymkhanaclub1909@yahoo.com<br>
+            Website: darjeelinggymkhanaclub.com<br>
+            CIN: U9190WB1909GAP001895
+        </div>
+    </div>
+
+    <div class="ref-date">
+        <span>Ref. No: @Model.refno</span>
+        <span>Dt: @DateTime.Now.ToString("dd-MMMM-yyyy")</span>
+    </div>
+
+    <div class="title" style="text-decoration: underline;">FINAL REMINDER</div>
+
+    <div class="to-address">
+        To,<br>
+        @Model.MemberId: @Model.MemberName<br>
+        @Model.address<br />
+        TEL. @Model.ContactNo
+    </div>
+
+    <div class="content">
+        Dear Sir/Madam,<br><br>
+        This is to bring to your kind notice that you have exceeded Six months due.
+
+        Moreover, it has come to the notice of the Committee that you have not paid your Club dues of ₹ ………@Model.amount…….  (Rupees ………………<strong>@Model.amountinwords</strong>……………………………………………...) since ………………….  June-2025. It has also been brought to light that the Governing Body has been accused of being inactive and connivance towards the defaulting members. Thus, the members present unanimously decided to take strong action against the members concerned, those who have not responded to our earlier reminders. However, honoring the status of members, the house decided to give a last & <b style="display: inline;text-decoration: underline;">FINAL REMINDER TO CLEAR THEIR RESPECTIVE DUES</b> with a grace time of 30 (Thirty) days for <b style="display: inline;text-decoration: underline;">clearing their arrear dues.</b><br />
+
+        The Article No.23 & 24 of Memorandum & Articles of Association of the Club may kindly be perused.
+
+        <p style="font-family:Times New Roman, Times, serif;">“23. Every gentleman permanent member ceasing to be a permanent member whether by resignation, default, expulsion or otherwise, shall ipso facto forfeit all rights or claims upon the Club or its property but shall remain liable to the extent of his guarantee under the Memorandum of association for one year from the date of the cessation of his membership, and his name shall be struck of the list of Permanent Members, but a note of the cessation of his membership shall be made against his name in the register of members.”</p>
+
+        <p style="font-family:Times New Roman, Times, serif;">“24.  All members shall pay their bills monthly except as herein otherwise provided. If a Bill be not paid within one month of its dispatch in the case of a permanent member and 14 days in the case of a temporary member, the member liable shall be reminded of the debt by registered letter directed to his or her last recorded address. After a maximum period of two months from the date on which payment of bill fell due to such member shall, if the bill remains unpaid, be liable to have his or her name posted on a Notice Board, at the Club, and from the date of being so posted shall cease to be a member of the Club. The addressee’s acknowledgement receipt or in the absence of such receipt the return of the letter itself shall be treated as sufficient reminder for the purposes of this Articles …….”</p>
+
+        It may be kindly noted that the above quoted Articles 23 & 24 is sufficient to post the name of the Member/s as defaulters. We presume that it may be due to your busy schedule or other engagements for which your dues are still lying unpaid.
+
+        Please treat this reminder as LAST & FINAL and the concerned member’s name will be struck off from the membership register and entry to the <b style="display: inline;text-decoration: underline;">Club will also be barred w.e.f., 06/08/2025 </b>and sums which are in arrear will be realized through <b style="display: inline;text-decoration: underline;">legal pay & post notice as usual.</b>
+
+        
+
+        Your kind cooperation shall be highly appreciated.<br /><br />
+
+        Yours faithfully,<br />
+
+
+        Pintoo Agarwal		<br />
+        Hony. Secretary<br />
+
+        <p style="border: 3px solid;text-align: center;">
+            N.B.  If the dues are paid while in-transit period of this reminder the same may kindly be ignored
+        </p>
+    </div>
+
+    <div class="bank-details" style="display: flex;">
+        <b>PS BANK DETAIL:</b><br>
+        <div>
+            State Bank of India, Darjeeling<br>
+            Account No: 10833264338<br>
+            IFSC Code: SBIN000063 (three zeros in between)<br>
+        </div>
+        <div>
+            HDFC Bank, Darjeeling<br>
+            Account No: 50200056535121<br>
+            IFSC Code: HDFC000454 (four zeros in between)<br />
+            <span style="font-size: 10px;font-weight: bold;">Payable at - Darjeeling Gymkhana Club Ltd., Darjeeling</span>
+        </div>
+        </div>
+    </div>
+
+    
+</body>
+</html>

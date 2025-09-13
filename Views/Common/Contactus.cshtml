@@ -1,0 +1,183 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+}
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, shrink-to-fit=no, viewport-fit=cover">
+
+    <link rel="apple-touch-icon" href="img/f7-icon-square.html">
+    <link rel="icon" href="img/f7-icon.html">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="/vendor/bootstrap-4.1.3/css/bootstrap.min.css">
+
+    <!-- Material design icons CSS -->
+    <link rel="stylesheet" href="/vendor/materializeicon/material-icons.css">
+
+    <!-- swiper carousel CSS -->
+    <link rel="stylesheet" href="/vendor/swiper/css/swiper.min.css">
+
+    <!-- app CSS -->
+    <link id="theme" rel="stylesheet" href="/css/style.css" type="text/css">
+
+
+    <title>Membership Number</title>
+    <style type="text/css">
+
+
+
+        .loader_cont {
+            background-color: rgba(255,255,255,.9);
+            border-radius: 50%;
+            position: fixed;
+            z-index: 500;
+            left: 50%;
+            top: 50%;
+            height: 50px;
+            width: 50px;
+            padding: 20px;
+            box-shadow: 2px 2px 20px #666;
+            display: none
+        }
+
+        .loaderg {
+            position: absolute;
+            top: 10%;
+            left: 10%;
+            width: 80%;
+            height: 80%;
+            animation: rotate 1.2s infinite linear;
+            -webkit-animation: rotate 1.2s infinite linear;
+            -moz-animation: rotate 1.2s infinite linear;
+            /*background: url("~/img/loader.gif") no-repeat;*/
+        }
+
+            .loaderg img {
+                width: 100%;
+                height: 100%;
+            }
+
+        @@-webkit-keyframes rotate {
+            100% {
+                transform: rotate(360deg);
+                -webkit-transform: rotate(360deg);
+                -moz--webkit-transform: rotate(360deg);
+            }
+        }
+    </style>
+    <link rel="stylesheet" type="text/css" href="~/css/stylegroupmaster.css">
+</head>
+
+<body class="color-theme-blue">
+    <div class="wrapper">
+
+        <div class="loader_cont"><span class="loaderg" style="background: url(/img/loader.gif)  no-repeat"></span></div>
+        <!-- page main start -->
+        <div class="page module">
+            <div class="page-content h-100">
+                <div class="left login_arrow">
+                    <div class="col-12"><a href="/Common/login" class="menu-left-close inner_back block-title"><i class="material-icons">keyboard_arrow_left</i></a><h2 class="block-title inner_title title_top">Contact us</h2></div>
+                </div>
+               
+                <div class="row mx-0 justify-content-center">
+                    <div class="col-10 col-md-6 col-lg-4 my-3 text-center align-self-center" >
+                      @*  <img src="/img/logo-w.png" alt="" class="login-logo">*@
+                        
+                     
+                        <textarea name="message" placeholder="Message" id="txtmsg" maxlength="200" style="width:100%; height:100px;box-shadow: inset 3px 3px 3px -1px #b9bfd5, inset -3px -3px 3px -1px #fafafa !important; color: #888 !important;border-radius: 12px !important;margin-bottom: 13px !important;padding: 10px 17px !important;"></textarea>
+                        	<div class="form-group">
+                            <button class="btn btn-primary" id="btnsubmit" name="submit" type="submit" onclick="IUContactUs()">Submit</button>
+					</div>
+                        <div style="display:none; text-align:center" id="lblmsg">
+                            <label style="color:red">Thank You for submitted your query ...</label><br/>
+                            <a href="/Common/login" class="btn btn-primary">Home</a>
+                        </div>
+                        <br>
+                        <div style="text-align:justify">
+                            
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d444.178731065072!2d88.26648754519455!3d27.048176643664995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39e42ec08a3fe131%3A0xffefeba7c05f2f57!2sDarjeeling%20Gymkhana%20Club!5e0!3m2!1sen!2sin!4v1648740281266!5m2!1sen!2sinhttps://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d444.178731065072!2d88.26648754519455!3d27.048176643664995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39e42ec08a3fe131%3A0xffefeba7c05f2f57!2sDarjeeling%20Gymkhana%20Club!5e0!3m2!1sen!2sin!4v1648740281266!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>                        
+                    </div>
+                </div>
+
+                <br>
+
+            </div>
+
+        </div>
+        <!-- page main ends -->
+
+    </div>
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="/js/jquery-3.2.1.min.js"></script>
+    <script src="/js/popper.min.js"></script>
+    <script src="/vendor/bootstrap-4.1.3/js/bootstrap.min.js"></script>
+
+    <!-- Cookie jquery file -->
+    <script src="/vendor/cookie/jquery.cookie.js"></script>
+
+    <!-- sparklines chart jquery file -->
+    <script src="/vendor/sparklines/jquery.sparkline.min.js"></script>
+
+    <!-- Circular progress gauge jquery file -->
+    <script src="/vendor/circle-progress/circle-progress.min.js"></script>
+
+    <!-- Swiper carousel jquery file -->
+    <script src="/vendor/swiper/js/swiper.min.js"></script>
+
+    <!-- Application main common jquery file -->
+    <script src="/js/main.js"></script>
+
+    <!-- page specific script -->
+
+</body>
+<script>
+    function IUContactUs() {
+
+        var msg = "";
+		if ($('#txtmsg').val() == "") { msg = " Please Write Something Here... !! \n"; }
+        if (msg == "") {
+            $('.loader_cont').show();
+    $.ajax({
+        type: "POST",
+        url: '/Common/IUContactUs',
+        data: {  Msg: $("#txtmsg").val() },
+        dataType: "JSON",
+        success: function (result) {
+            
+
+            if (result.message == "Contact Form added.") {
+                    $("#lblmsg").val(result).show();
+                    $("#btnsubmit").hide();
+                    $("#txtmsg").val('');
+                    $('.loader_cont').hide();
+
+            //    alert("Contact Form Added successfully.");
+            }
+            //Clear();
+        },
+        error: function (errormessage) {
+            alert(errormessage.responseText);
+        }
+    });
+        }
+        else{
+            alert(msg);
+        }
+    }
+</script>
+
+</html>
+
+

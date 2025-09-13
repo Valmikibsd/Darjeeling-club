@@ -1,0 +1,101 @@
+﻿@{
+    ViewData["Title"] = "VenueMaster";
+    Layout = "~/Areas/Admin/Views/Shared/_MainLayout.cshtml";
+}
+
+<div class="container-fluid">
+    <br>
+    <div class="card shadow mb-4">
+        <div class="card-header py-3">
+            <h6 class="m-0 font-weight-bold text-primary">Venue Master</h6>
+        </div>
+        <div class="card-body">
+            <div class="row">
+            </div>
+            <div class="row">
+                <input type="hidden" id="id" value="0" />
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label class="font-weight-700 font-size-16">Venue Name</label>
+                        <input type="text" placeholder="Enter Venue Name" class="form-control" id="txtvenuename" />
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label class="font-weight-700 font-size-16">Short Name</label>
+                        <input type="text" placeholder="Enter Short Name" class="form-control" id="txtshortname" />
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label class="font-weight-700 font-size-16">Rate For Member</label>
+                        <input type="text" placeholder="Enter Rate For Member" class="form-control" id="txtrateformember" />
+                    </div>
+                </div>
+
+
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label class="font-weight-700 font-size-16">Photo</label>
+                        <input type="file" class="form-control" id="imgfile" />
+                    </div>
+                </div>
+
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <label class="font-weight-700 font-size-16">Description</label>
+                        <textarea class="form-control" id="Description"></textarea>
+
+                        <div style="clear: both;"></div>
+
+                        <script type="text/javascript">
+                            $(function () {
+                                CKEDITOR.replace('Description',
+                                    { filebrowserImageUploadUrl: '/Upload.ashx', filebrowserUploadUrl: '/Upload.ashx' }); //path to “Upload.ashx”
+                            });
+                        </script>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-actions mt-10" id="save">
+                <input type="button" class="btn btn-primary" id="btnsave" onclick="IUIVenueMaster()"
+                       value="Save" />
+            </div>
+
+            <div class="form-actions mt-10" id="update" style="display:none">
+                <input type="button" class="btn btn-primary" id="btnupdate" onclick="IUIVenueMasterUpdate()"
+                       value="Update" />
+            </div>
+        </div>
+        <div class="col-md-12">
+            <table id="data-table" class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>Venue Name</th>
+                        <th>Short Name</th>
+                        <th>Rate For Member</th>
+                        <th>Photo</th>
+                        <th>Description</th>
+                        <th>Edit</th>
+                        <th>Delete</th>
+                    </tr>
+                </thead>
+                <tbody class="SubCategorybody"></tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="~/js/VenueMaster.js"></script>
+<link href="~/Content/bootstrap.css" rel="stylesheet" />
+<script src="/Scripts/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="/ckeditor/ckeditor.js"></script>
+<script type="text/javascript" src="/ckeditor/adapters/jquery.js"></script>
+<script type="text/javascript">
+    ShowDataInTable();
+</script>
+

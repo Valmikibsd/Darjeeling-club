@@ -1,0 +1,132 @@
+﻿@model ClubApp.Models.Myevent
+@{
+    ViewData["Title"] = "UpcomingEvents";
+    Layout = null;
+}
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, shrink-to-fit=no, viewport-fit=cover">
+
+    <link rel="apple-touch-icon" href="/img/f7-icon-square.html">
+    <link rel="icon" href="/img/f7-icon.html">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="/vendor/bootstrap-4.1.3/css/bootstrap.min.css">
+
+    <!-- Material design icons CSS -->
+    <link rel="stylesheet" href="/vendor/materializeicon/material-icons.css">
+
+    <!-- swiper carousel CSS -->
+    <link rel="stylesheet" href="/vendor/swiper/css/swiper.min.css">
+
+    <!-- app CSS -->
+    <link id="theme" rel="stylesheet" href="/css/style.css" type="text/css">
+
+
+    <title>Membership Number</title>
+
+</head>
+
+<body class="color-theme-blue">
+    <div class="wrapper">
+        <!-- page main start -->
+        <div class="page">
+            <div class="page-content h-100">
+                <div class="page-content">
+                <div class="content-sticky-footer pt-2">
+
+                    <div class="col-12">
+                        <div class="row">
+                                <div class="col-12"><a href="/Common/login" class="menu-left-close inner_back block-title"><i class="material-icons">keyboard_arrow_left</i></a><h2 class="block-title inner_title title_top">Upcoming Events</h2></div>
+                    </div>
+                    </div>
+                    <div class="col-12 mb-4 ">
+                        <ul class="list-group">
+                                @foreach (var sub in Model.Events)
+                                {
+
+                                       
+                                    <li class="list-group-items py-3">
+                                        <a href="/Common/imagegalleryevent?id=@sub.Id">
+                                            <img class="img-fluid" src="/Event/@sub.image">
+                                   
+                                        <div class="row">
+                                            <div class="col-8">
+                                                <h5 class="tag">@sub.eventname</h5>
+                                            </div>
+                                        
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <p class="time">  @sub.eventdate </p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-8">
+                                               
+                                            </div>
+                                         
+                                        </div>
+                                        </a>
+                                    </li>
+                                   
+                                }
+                        </ul>
+                    </div>
+                    
+                    </div>
+                </div>
+
+                <br>
+
+            </div>
+
+        </div>
+        <!-- page main ends -->
+
+    </div>
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="//js/popper.min.js"></script>
+    <script src="/vendor/bootstrap-4.1.3/js/bootstrap.min.js"></script>
+
+    <!-- Cookie jquery file -->
+    <script src="/vendor/cookie/jquery.cookie.js"></script>
+
+    <!-- sparklines chart jquery file -->
+    <script src="/vendor/sparklines/jquery.sparkline.min.js"></script>
+
+    <!-- Circular progress gauge jquery file -->
+    <script src="/vendor/circle-progress/circle-progress.min.js"></script>
+
+    <!-- Swiper carousel jquery file -->
+    <script src="/vendor/swiper/js/swiper.min.js"></script>
+
+    <!-- Application main common jquery file -->
+    <script src="/js/main.js"></script>
+
+    <!-- page specific script -->
+
+</body>
+
+<style>
+
+    li.list-group-items img {
+        border-radius: 10px;
+        margin-bottom: 20px;
+        height: auto !important;
+       
+    }
+</style>
+
+</html>

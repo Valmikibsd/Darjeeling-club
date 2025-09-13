@@ -1,0 +1,11 @@
+14/08/2025 1:50:50 PM - input'1gdg' -  -  -  -  -  - execQuery-
+14/08/2025 1:52:02 PM - input'1gdg' -  -  -  -  -  - execQuery
+14/08/2025 2:11:00 PM - input'1gdg' -  -  -  -  -  - execQuery
+14/08/2025 2:28:40 PM - input'1gdg' -  -  -  -  -  - execQuery
+14/08/2025 2:29:54 PM - input'1gdg' -  -  -  -  -  - execQuery
+14/08/2025 2:32:19 PM - input'1gdg' -  -  -  -  -  - execQuery
+14/08/2025 2:32:45 PM - input'1gdg' -  -  -  -  -  - execQuery
+14/08/2025 2:33:56 PM - input'1gdg' -  -  -  -  -  - execQuery
+14/08/2025 2:34:50 PM - input'1gdg' -  -  -  -  -  - execQuery
+14/08/2025 2:36:28 PM - input'1gdg' -  -  -  -  -  - execQuery
+14/08/2025 2:38:50 PM - input'1gdg' -  -  -  -  -  - execQuery

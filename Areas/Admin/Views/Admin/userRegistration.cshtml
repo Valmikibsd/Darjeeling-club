@@ -1,0 +1,201 @@
+﻿@{
+    ViewData["Title"] = "userRegistration";
+    Layout = "~/Areas/Admin/Views/Shared/_MainLayout.cshtml";
+}
+
+<div class="container-fluid">
+    <br>
+    <div class="card shadow mb-4">
+        <div class="card-header py-3">
+            <h6 class="m-0 font-weight-bold text-primary">User Registration</h6>
+        </div>
+        <div class="card-body">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="form-group">
+                        <input type="hidden" id="txtHiddenId" value="0" />
+                        <input type="hidden" id="flgmode" value="ADD" />
+                        <label for="fname">Full Name</label>
+                        <input type="text" class="form-control" name="fname" id="txtname" placeholder="User Name." required="">
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="form-group">
+                        <label for="MobileNo">Mobile Number</label>
+                        <input type="text" class="form-control" name="MobileNo" id="txtmobile" placeholder="Enter your Contact Number." required="">
+                    </div>
+                </div>
+
+                <div class="col-lg-3">
+                    <div class="form-group">
+                        <label for="UserName">User Name</label>
+                        <input type="text" class="form-control" name="UserName" id="txtusername" placeholder="Enter your User Name." required="">
+                    </div>
+                </div>
+
+                <div class="col-lg-3">
+                    <div class="form-group">
+                        <label for="UserPassword">User Password</label>
+                        <input type="text" class="form-control" id="txtuserpassword" placeholder="Enter your password." required="" />
+                    </div>
+                </div>
+
+                <div class="col-lg-3">
+                    <div class="form-group">
+                        <label for="Country">User Profile</label>
+                        <select id="ddlprofile" class="form-control custom-select browser-default">
+                            <option value="0">Select</option>
+                            @if (ViewBag.Category != null)
+                            {
+                                foreach (var item in ViewBag.Category as List<SelectListItem>)
+                                {
+                                    <option value="@item.Value">@item.Text</option>
+                                }
+                            }
+                        </select>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-lg-12" style="margin-top: auto;">
+                <div class="form-group">
+                    
+                    <button type="button" class="btn btn-primary float-right" id="btnSubmit" onclick="SAVE()">Submit</button>
+                </div>
+            </div>
+
+            <br />
+            <div class="table-responsive">
+                <div class="table table-bordered" width="100%" cellspacing="0">
+                    <div id="Printdiv"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+<script src="@Url.Content("~/js/InsAjax.js")"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        BindGrid();
+    });
+
+    function SAVE() {
+        var vali = validate();
+        if (vali == '') {
+            Insert();
+        } else {
+            alert(vali);
+        }
+
+
+    }
+
+    function validate() {
+        var msg = "";
+        var regex = /^[a-zA-Z\s]+$/;
+        //if ($("#txtname").val() == '') {
+        //      msg = "Please Fill Name!! \n";
+        //  }
+        if (!regex.test($("#txtname").val())) {
+            msg += "Name Only In Alphabets \n";
+        }
+        if ($("#ddlprofile").val() == 0) { msg += "Select Profile First!! \n"; }
+        //if ($("#textuid").val() == '') { msg += "Fill User Id!! \n"; }
+        if ($("#txtuserpassword").val() == '') { msg += "Create Password !! \n"; }
+
+        return msg;
+    }
+
+
+    function Insert() {
+
+        var Controller_url = "/Admin/Admin/SaveUser";
+        var Pid = $("#ddlprofile").find("option:selected").val();
+        var data = {
+            UserId: $("#txtHiddenId").val(),
+            FullName: $("#txtname").val(),
+            MobileNo: $("#txtmobile").val(),
+            UserName: $("#txtusername").val(),
+            UserPassword: $("#txtuserpassword").val(),
+            ProfileId: Pid,
+
+            mod: $("#flgmode").val(),
+            //CreateUser: $("#UserId").val(),
+            type: 6,
+        }
+        var RecieveData = InsUpt_Ajax(Controller_url, data, "", "", "");
+        clear();
+    }
+
+
+
+    function BindGrid() {
+        var url = "/Admin/Admin/BindUserDiv";
+        var data = {}
+        var RecieveData = BindDiv(url, data, "", "", "");
+    }
+
+
+    //function ActbyId(id) {
+
+    //    url = "/Admin/Admin/Activate";
+    //    var data = { userid: id, type: "Activate" }
+    //    DeleteData(url, data, "", "", "");
+    //    location.reload();
+    //    //BindGrid();
+    //}
+
+
+    //function DeaId(id) {
+    //    var strcnfm = confirm("Are You Sure Want To Deactivate..?")
+    //    if (strcnfm == true) {
+    //        url = "/Admin/Admin/Activate";
+    //        var data = { userid: id, type: "DeActivate" }
+    //        var recieve = DeleteData(url, data, "", "", "");
+    //        //BindGrid();
+    //        location.reload();
+    //    }
+    //}
+
+    function EditbyId(Id) {
+        $("#data-table tbody tr").click(function () {
+            var currentRow = $(this).closest("tr");
+            var UserId = currentRow.find("td:eq(0)").html();
+            var FullName = currentRow.find("td:eq(1)").html();
+            var MobileNo = currentRow.find("td:eq(2)").html();
+            var UserName = currentRow.find("td:eq(3)").html();
+            var UserPassword = currentRow.find("td:eq(4)").html();
+            var ProfileId = currentRow.find("td:eq(5)").html();
+
+            $("#txtHiddenId").val(UserId);
+            $("#txtname").val(FullName);
+            $("#txtmobile").val(MobileNo);
+            $("#txtusername").val(UserName);
+            $("#txtuserpassword").val(UserPassword);
+            $("#ddlprofile").val(ProfileId);
+            $("#flgmode").val("ADD");
+            $("#btnSubmit").html('Update');
+        });
+    }
+
+    function DeletebyId(Id) {
+        var checkstr = confirm('Are You Sure You Want To Delete This?');
+        if (checkstr == true) {
+            $("#txtHiddenId").val(Id);
+            $("#flgmode").val("Del");
+            Insert();
+        }
+    }
+
+    function clear() {
+        $("#txtname").val('');
+        $("#txtmobile").val('');
+        $("#txtusername").val('');
+        $("#txtuserpassword").val('');
+        $("#ddlprofile").val(0);
+        $("#flgmode").val("ADD");
+        $("#txtHiddenId").val('');
+        $("#btnSubmit").html('Submit');
+    }
+</script>

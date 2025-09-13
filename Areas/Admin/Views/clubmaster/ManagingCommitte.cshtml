@@ -1,0 +1,116 @@
+﻿@{
+    ViewData["Title"] = "ManagingCommitte";
+    Layout = "~/Areas/Admin/Views/Shared/_MainLayout.cshtml";
+
+}
+
+<div class="container-fluid">
+    <br>
+    <div class="card shadow mb-4">
+        <div class="card-header py-3">
+            <h6 class="m-0 font-weight-bold text-primary">Management Committe</h6>
+        </div>
+        <div class="card-body">
+            <div class="row">
+            </div>
+            <div class="row">
+                <input type="hidden" id="id" value="0" />
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label class="font-weight-700 font-size-16">Name</label>
+                        <input type="text" placeholder="Enter Name" class="form-control" id="txtname" />
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label class="font-weight-700 font-size-16">Designation</label>
+                        <input type="text" placeholder="Enter Designation" class="form-control" id="txtdesignation" />
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label class="font-weight-700 font-size-16">Address</label>
+                        <input type="text" placeholder="Enter Address" class="form-control" id="txtaddress" />
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label class="font-weight-700 font-size-16">Mobile</label>
+                        <input type="text" placeholder="Enter Mobile" class="form-control" id="txtmobile" />
+                    </div>
+                </div>
+                @*<input type="hidden" id="id" value="0" />*@
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label class="font-weight-700 font-size-16">Photo</label>
+                        <input type="file" class="form-control" id="imgfile" />
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label class="font-weight-700 font-size-16">Order Number</label>
+                        <input type="text" placeholder="Enter Order Number" class="form-control" id="txtorderby" />
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <label class="font-weight-700 font-size-16">Description</label>
+                        <textarea type="text" class="form-control" id="Description"></textarea>
+
+
+                        <div style="clear: both;"></div>
+
+                        <script type="text/javascript">
+                            $(function () {
+                                CKEDITOR.replace('Description',
+                                    { filebrowserImageUploadUrl: '/Upload.ashx', filebrowserUploadUrl: '/Upload.ashx' }); //path to “Upload.ashx”
+                            });
+                        </script>
+                    </div>
+                </div>
+            </div>
+            <div class="form-actions mt-10" id="btnsv">
+                <input type="submit" class="btn btn-primary" id="btnsave" onclick="IUManagingCommitte()"
+                       value="Save" />
+            </div>
+            <div class="form-actions mt-10" style="display:none" id="btnupdt">
+                <input type="submit" class="btn btn-primary" id="btnupdate" onclick="IUpdateManagingCommitte()"
+                       value="Update" />
+            </div>
+
+        </div>
+        <div class="col-md-12">
+            <table id="data-table" class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Designation</th>
+                        <th>Address</th>
+                        <th>Mobile</th>
+                        <th>Photo</th>
+                        <th>Description</th>
+                        <th>Order Number</th>
+                        <th>Edit</th>
+                        <th>Delete</th>
+                    </tr>
+                </thead>
+                <tbody class="SubCategorybody"></tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="~/js/ManagingCommitte.js"></script>
+<link href="~/Content/bootstrap.css" rel="stylesheet" />
+<script src="/Scripts/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="/ckeditor/ckeditor.js"></script>
+<script type="text/javascript" src="/ckeditor/adapters/jquery.js"></script>
+<script type="text/javascript">
+    ShowDataInTable();
+</script>
+
+
+

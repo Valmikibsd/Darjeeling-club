@@ -1,0 +1,86 @@
+﻿@{
+    ViewData["Title"] = "OTPReport";
+    Layout = "~/Areas/Admin/Views/Shared/_MainLayout.cshtml";
+}
+
+<div class="container-fluid">
+    <br>
+    <div class="card shadow mb-4">
+        <div class="card-header py-3">
+            <h6 class="m-0 font-weight-bold text-primary">One Time Password</h6>
+        </div>
+        <div class="card-body">
+            <div class="row">
+            </div>
+            <div class="row">
+                <input type="hidden" id="id" value="0" />
+                @*<input type="hidden" id="id" value="0" />*@
+                
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label class="font-weight-700 font-size-16">From Date</label>
+                        <input type="date" class="form-control" id="txtdate1" onchange="ShowDataInTable()" />
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label class="font-weight-700 font-size-16">To Date</label>
+                        <input type="date" class="form-control" id="txtdate2" onchange="ShowDataInTable()" />
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="col-md-12">
+            <table id="data-table" class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>Member Id</th>
+                        <th>Date & Time</th>
+                        <th>OTP</th>
+                    </tr>
+                </thead>
+                <tbody class="SubCategorybody"></tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="~/js/Todaydate_NowTime.js"></script>
+<link href="~/Content/bootstrap.css" rel="stylesheet" />
+<script type="text/javascript">
+    Todaydate();
+    ShowDataInTable();
+    $(document).ready(function () {
+        todaydate = Todaydate();
+        $("#txtdate1").val(todaydate);
+        $("#txtdate2").val(todaydate);
+        ShowDataInTable();
+    })
+
+    function ShowDataInTable() {
+        $.ajax({
+            url: '/Admin/ClubApp/ShowOTPReport',
+            dataType: 'JSON',
+            data: {  FromDate: $("#txtdate1").val(), ToDate: $("#txtdate2").val() },
+            type: 'GET',
+            contentType: 'application/json; charset=utf-8',
+            success: function (data) {
+                console.log(data);
+                var html = '';
+                var index = 1;
+                $.each(data, function (key, item) {
+                    html += '<tr class="hover-primary">';
+                    html += '<td style="display:none">' + item.otoId + '</td>';
+                    html += '<td>' + item.memid + '</td>';
+                    html += '<td>' + item.createDate + '</td>';
+                    html += '<td>' + item.otpNumber + '</td>';
+                    index++;
+                });
+                $('.SubCategorybody').html(html);
+            }
+        });
+    }
+</script>

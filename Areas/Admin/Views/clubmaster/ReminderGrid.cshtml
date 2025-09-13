@@ -1,0 +1,146 @@
+﻿@model DarjeelingClubApp.Areas.Admin.Models.ReminderModel
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Darjeeling Gymkhana Club Ltd. - First Reminder</title>
+
+    <style>
+        @@import url('https://fonts.cdnfonts.com/css/mv-boli');
+        @@import url('https://fonts.cdnfonts.com/css/stencil');
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 20px;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+            line-height: 1.5;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+            .header img {
+                width: 100px;
+                height: auto;
+            }
+
+            .header h1 {
+                margin: 0;
+                font-size: 34px;
+                text-transform: uppercase;
+            }
+
+        .contact-info {
+            font-size: 12px;
+            text-align: right;
+            margin-top: 10px;
+        }
+
+        .ref-date {
+            /* display: flex; */
+            justify-content: space-between;
+            margin-bottom: 20px;
+            font-size: 12px;
+        }
+
+        .title {
+            text-align: center;
+            font-weight: bold;
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+        .to-address {
+            font-family: 'MV Boli', sans-serif;
+            margin-bottom: 20px;
+        }
+
+        .content {
+            margin-bottom: 20px;
+        }
+
+        .bank-details {
+            margin-bottom: 20px;
+        }
+
+            .bank-details ul {
+                list-style-type: none;
+                padding-left: 0;
+            }
+
+        .qr-code {
+            float: right;
+            width: 150px;
+            height: auto;
+            margin-left: 20px;
+        }
+        h1{
+            font-family: 'Stencil', sans-serif;
+        }
+
+        .footer {
+            clear: both;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img src="https://darjeelinggymkhanaclub.com/wp-content/uploads/2022/03/gymkhana-new-logo-150x150.png" style="position: relative;margin: 0px 0px -106px -687px;" alt="Darjeeling Gymkhana Club Logo">
+        <h1>DARJEELING GYMKHANA CLUB LTD.</h1>
+        <div class="contact-info">
+            Ph. No: 2254342/2252892<br>
+            E-Mail: darjeelinggymkhanaclub1909@yahoo.com<br>
+            Website: darjeelinggymkhanaclub.com<br>
+            CIN: U9190WB1909GAP001895
+        </div>
+    </div>
+
+    <div class="ref-date">
+        <span>Ref. No: @Model.refno</span>
+        <span style="float: inline-end;">Dt: @DateTime.Now.ToString("dd-MMMM-yyyy")</span>
+    </div>
+
+    <div class="title" style="text-decoration: underline;">FIRST REMINDER</div>
+
+    <div class="to-address">
+        To,<br>
+        @Model.MemberId: @Model.MemberName<br>
+        @Model.address<br />
+        TEL. @Model.ContactNo
+    </div>
+
+    <div class="content">
+        Dear Sir/Madam,<br><br>
+        It appears that you have exceeded bills more than two (2) months. Your current outstanding due to the <br>Club is ₹ @Model.amount/-<br>
+        You are kindly requested to clear the outstanding dues within 10 (Ten) days from the date of receipt of this letter.<br>
+        In the event, if you are out of station, we are appending below Bank details and QR Code to enable you to make the payment.
+    </div>
+
+    <div class="bank-details">
+        @* <a href="d:\ajay sir\testapp\testapp\wwwroot\images\darqr.jfif">d:\ajay sir\testapp\testapp\wwwroot\images\darqr.jfif</a> *@
+        <img src="~/images/darqr.jfif" alt="QR Code" class="qr-code">
+        <strong>BANK DETAIL</strong><br>
+        <strong>PAYABLE AT:</strong> Darjeeling Gymkhana Club Ltd.<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; <strong>1. State Bank of India, Darjeeling</strong><br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;  Account No: 10833264338<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; IFSC Code: SBIN000063 (three zeros in between)<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;  <strong>2. HDFC Bank, Darjeeling</strong><br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; Account No: 50200056535121<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; IFSC Code: HDFC000454 (four zeros in between)
+    </div>
+
+    <div class="footer">
+        In this regard we look forward to your kind co-operation to help us run the Club efficiently.<br><br>
+        Thanking you
+    </div>
+</body>
+</html>

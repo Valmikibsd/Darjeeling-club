@@ -1,0 +1,76 @@
+﻿@{
+    ViewData["Title"] = "TypeVenue";
+    Layout = "~/Areas/Admin/Views/Shared/_MainLayout.cshtml";
+
+}
+
+<div class="container-fluid">
+    <br>
+    <div class="card shadow mb-4">
+        <div class="card-header py-3">
+            <h6 class="m-0 font-weight-bold text-primary">Venue Type Master</h6>
+        </div>
+        <div class="card-body">
+            <div class="row">
+            </div>
+            <div class="row">
+                <input type="hidden" id="id" value="0" />
+                @*<input type="hidden" id="id" value="0" />*@
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label class="font-weight-700 font-size-16">Venue Name</label>
+                        <select id="ddlvenueid" class="form-control" tabindex="1" onchange="ShowDataInTable()">
+                            <option value="0">Select Venue Name</option>
+                            @if (ViewBag.Categoryobj != null)
+                            {
+                                foreach (var item in ViewBag.Categoryobj as List<SelectListItem>)
+                                {
+                                    <option value="@item.Value">@item.Text</option>
+                                }
+                            }
+                        </select>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label class="font-weight-700 font-size-16">Venue Type Name </label>
+                        <input type="text" placeholder="Venue Type Name" class="form-control" id="txtvenuetype" />
+                    </div>
+                </div>
+
+            </div>
+            <div class="form-actions mt-10" id="save">
+                <input type="button" class="btn btn-primary" id="btnsave" onclick="IUTypeVenue()"
+                       value="Save" />
+            </div>
+
+            <div class="form-actions mt-10" id="update" style="display:none">
+                <input type="button" class="btn btn-primary" id="btnupdate" onclick="IUTypeVenueUpdate()"
+                       value="Update" />
+            </div>
+        </div>
+        <div class="col-md-12">
+            <table id="data-table" class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>Venue Name</th>
+                        <th>Venue Type Name</th>
+                        <th>Edit</th>
+                        <th>Delete</th>
+                    </tr>
+                </thead>
+                <tbody class="SubCategorybody"></tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="~/js/TypeVenue.js"></script>
+<link href="~/Content/bootstrap.css" rel="stylesheet" />
+<script type="text/javascript">
+    $(document).ready(function () {
+        ShowDataInTable();
+    })
+</script>
+

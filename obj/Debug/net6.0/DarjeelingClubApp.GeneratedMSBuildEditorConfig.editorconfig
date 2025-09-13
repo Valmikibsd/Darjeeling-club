@@ -1,0 +1,353 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = DarjeelingClubApp
+build_property.RootNamespace = DarjeelingClubApp
+build_property.ProjectDir = D:\ajay sir\testapp\testapp\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\ajay sir\testapp\testapp
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 6.0
+build_property.EnableCodeStyleSeverity = 
+
+[D:/ajay sir/testapp/testapp/Areas/Admin/Views/Admin/Adm_Profile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5cQWRtX1Byb2ZpbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ajay sir/testapp/testapp/Areas/Admin/Views/Admin/MenuRights.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5cTWVudVJpZ2h0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ajay sir/testapp/testapp/Areas/Admin/Views/Admin/Mst_Menu.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5cTXN0X01lbnUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ajay sir/testapp/testapp/Areas/Admin/Views/Admin/userRegistration.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5cdXNlclJlZ2lzdHJhdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ajay sir/testapp/testapp/Areas/Admin/Views/ChangePass/ChangePassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2hhbmdlUGFzc1xDaGFuZ2VQYXNzd29yZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ajay sir/testapp/testapp/Areas/Admin/Views/clubmaster/AdminLogin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcY2x1Ym1hc3RlclxBZG1pbkxvZ2luLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ajay sir/testapp/testapp/Areas/Admin/Views/clubmaster/Affiliate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcY2x1Ym1hc3RlclxBZmZpbGlhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ajay sir/testapp/testapp/Areas/Admin/Views/clubmaster/BookingReports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcY2x1Ym1hc3RlclxCb29raW5nUmVwb3J0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ajay sir/testapp/testapp/Areas/Admin/Views/clubmaster/CancelBooking.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcY2x1Ym1hc3RlclxDYW5jZWxCb29raW5nLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ajay sir/testapp/testapp/Areas/Admin/Views/clubmaster/CMS_DROPDOWN.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcY2x1Ym1hc3RlclxDTVNfRFJPUERPV04uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ajay sir/testapp/testapp/Areas/Admin/Views/clubmaster/Communication.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcY2x1Ym1hc3RlclxDb21tdW5pY2F0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ajay sir/testapp/testapp/Areas/Admin/Views/clubmaster/ContactForm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcY2x1Ym1hc3RlclxDb250YWN0Rm9ybS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ajay sir/testapp/testapp/Areas/Admin/Views/clubmaster/EVent.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcY2x1Ym1hc3RlclxFVmVudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ajay sir/testapp/testapp/Areas/Admin/Views/clubmaster/Gallery.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcY2x1Ym1hc3RlclxHYWxsZXJ5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ajay sir/testapp/testapp/Areas/Admin/Views/clubmaster/GalleryMain.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcY2x1Ym1hc3RlclxHYWxsZXJ5TWFpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ajay sir/testapp/testapp/Areas/Admin/Views/clubmaster/ItemGroup.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcY2x1Ym1hc3RlclxJdGVtR3JvdXAuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ajay sir/testapp/testapp/Areas/Admin/Views/clubmaster/ItemMaster.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcY2x1Ym1hc3RlclxJdGVtTWFzdGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ajay sir/testapp/testapp/Areas/Admin/Views/clubmaster/ItemSubGroup.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcY2x1Ym1hc3RlclxJdGVtU3ViR3JvdXAuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ajay sir/testapp/testapp/Areas/Admin/Views/clubmaster/LetterOftermination.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcY2x1Ym1hc3RlclxMZXR0ZXJPZnRlcm1pbmF0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ajay sir/testapp/testapp/Areas/Admin/Views/clubmaster/ManagingCommitte.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcY2x1Ym1hc3RlclxNYW5hZ2luZ0NvbW1pdHRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ajay sir/testapp/testapp/Areas/Admin/Views/clubmaster/MemberBillReport.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcY2x1Ym1hc3RlclxNZW1iZXJCaWxsUmVwb3J0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ajay sir/testapp/testapp/Areas/Admin/Views/clubmaster/MemberDetail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcY2x1Ym1hc3RlclxNZW1iZXJEZXRhaWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ajay sir/testapp/testapp/Areas/Admin/Views/clubmaster/OTPReport.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcY2x1Ym1hc3RlclxPVFBSZXBvcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ajay sir/testapp/testapp/Areas/Admin/Views/clubmaster/Reminder.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcY2x1Ym1hc3RlclxSZW1pbmRlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ajay sir/testapp/testapp/Areas/Admin/Views/clubmaster/ReminderFinal.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcY2x1Ym1hc3RlclxSZW1pbmRlckZpbmFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ajay sir/testapp/testapp/Areas/Admin/Views/clubmaster/ReminderGrid.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcY2x1Ym1hc3RlclxSZW1pbmRlckdyaWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ajay sir/testapp/testapp/Areas/Admin/Views/clubmaster/ReminderGrid2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcY2x1Ym1hc3RlclxSZW1pbmRlckdyaWQyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ajay sir/testapp/testapp/Areas/Admin/Views/clubmaster/TranVenue.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcY2x1Ym1hc3RlclxUcmFuVmVudWUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ajay sir/testapp/testapp/Areas/Admin/Views/clubmaster/TypeVenue.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcY2x1Ym1hc3RlclxUeXBlVmVudWUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ajay sir/testapp/testapp/Areas/Admin/Views/clubmaster/Venue.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcY2x1Ym1hc3RlclxWZW51ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ajay sir/testapp/testapp/Areas/Admin/Views/clubmaster/VenueAvailability.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcY2x1Ym1hc3RlclxWZW51ZUF2YWlsYWJpbGl0eS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ajay sir/testapp/testapp/Areas/Admin/Views/clubmaster/VenueMaster.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcY2x1Ym1hc3RlclxWZW51ZU1hc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ajay sir/testapp/testapp/Areas/Admin/Views/clubmaster/VenueReport.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcY2x1Ym1hc3RlclxWZW51ZVJlcG9ydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ajay sir/testapp/testapp/Areas/Admin/Views/Master/AdminLogin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTWFzdGVyXEFkbWluTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ajay sir/testapp/testapp/Areas/Admin/Views/Reports/ReminderReports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUmVwb3J0c1xSZW1pbmRlclJlcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ajay sir/testapp/testapp/Areas/Admin/Views/Shared/Components/Left/Left.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXENvbXBvbmVudHNcTGVmdFxMZWZ0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ajay sir/testapp/testapp/Areas/Admin/Views/Shared/_MainLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9NYWluTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ajay sir/testapp/testapp/Areas/Admin/Views/Shared/_MainLayout1.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9NYWluTGF5b3V0MS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ajay sir/testapp/testapp/Areas/Admin/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ajay sir/testapp/testapp/Views/Common/aboutus.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbW9uXGFib3V0dXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ajay sir/testapp/testapp/Views/Common/Affiliatedclub.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbW9uXEFmZmlsaWF0ZWRjbHViLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ajay sir/testapp/testapp/Views/Common/BILLResponse.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbW9uXEJJTExSZXNwb25zZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ajay sir/testapp/testapp/Views/Common/BookingResponse.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbW9uXEJvb2tpbmdSZXNwb25zZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ajay sir/testapp/testapp/Views/Common/CALLBACKAPI.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbW9uXENBTExCQUNLQVBJLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ajay sir/testapp/testapp/Views/Common/cardrechagre.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbW9uXGNhcmRyZWNoYWdyZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ajay sir/testapp/testapp/Views/Common/CardRechargeresponse.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbW9uXENhcmRSZWNoYXJnZXJlc3BvbnNlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ajay sir/testapp/testapp/Views/Common/clubameitie.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbW9uXGNsdWJhbWVpdGllLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ajay sir/testapp/testapp/Views/Common/ClubGroupMaster.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbW9uXENsdWJHcm91cE1hc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ajay sir/testapp/testapp/Views/Common/ClubGroupMasterBAR.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbW9uXENsdWJHcm91cE1hc3RlckJBUi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ajay sir/testapp/testapp/Views/Common/Contactus.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbW9uXENvbnRhY3R1cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ajay sir/testapp/testapp/Views/Common/Failed.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbW9uXEZhaWxlZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ajay sir/testapp/testapp/Views/Common/home - Copy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbW9uXGhvbWUgLSBDb3B5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ajay sir/testapp/testapp/Views/Common/home.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbW9uXGhvbWUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ajay sir/testapp/testapp/Views/Common/imagega.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbW9uXGltYWdlZ2EuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ajay sir/testapp/testapp/Views/Common/imagegallery.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbW9uXGltYWdlZ2FsbGVyeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ajay sir/testapp/testapp/Views/Common/imagegalleryevent.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbW9uXGltYWdlZ2FsbGVyeWV2ZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ajay sir/testapp/testapp/Views/Common/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbW9uXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ajay sir/testapp/testapp/Views/Common/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbW9uXExvZ2luLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ajay sir/testapp/testapp/Views/Common/LoginOtp.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbW9uXExvZ2luT3RwLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ajay sir/testapp/testapp/Views/Common/ManagingCommittee.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbW9uXE1hbmFnaW5nQ29tbWl0dGVlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ajay sir/testapp/testapp/Views/Common/memberentrnce.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbW9uXG1lbWJlcmVudHJuY2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ajay sir/testapp/testapp/Views/Common/MyAccount.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbW9uXE15QWNjb3VudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ajay sir/testapp/testapp/Views/Common/MyBill.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbW9uXE15QmlsbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ajay sir/testapp/testapp/Views/Common/Myvenue.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbW9uXE15dmVudWUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ajay sir/testapp/testapp/Views/Common/partycalender - Copy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbW9uXHBhcnR5Y2FsZW5kZXIgLSBDb3B5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ajay sir/testapp/testapp/Views/Common/partycalender.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbW9uXHBhcnR5Y2FsZW5kZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ajay sir/testapp/testapp/Views/Common/passevent.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbW9uXHBhc3NldmVudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ajay sir/testapp/testapp/Views/Common/Response.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbW9uXFJlc3BvbnNlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ajay sir/testapp/testapp/Views/Common/Success.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbW9uXFN1Y2Nlc3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ajay sir/testapp/testapp/Views/Common/Successcancel.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbW9uXFN1Y2Nlc3NjYW5jZWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ajay sir/testapp/testapp/Views/Common/UpcomingEvents.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbW9uXFVwY29taW5nRXZlbnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ajay sir/testapp/testapp/Views/Common/VenueBookingbycash.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbW9uXFZlbnVlQm9va2luZ2J5Y2FzaC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ajay sir/testapp/testapp/Views/Common/VenueBookings.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbW9uXFZlbnVlQm9va2luZ3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ajay sir/testapp/testapp/Views/Common/VenueBookingscalendar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbW9uXFZlbnVlQm9va2luZ3NjYWxlbmRhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ajay sir/testapp/testapp/Views/Common/VenueBookingspayement.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbW9uXFZlbnVlQm9va2luZ3NwYXllbWVudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ajay sir/testapp/testapp/Views/HandlePaymentResponse/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGFuZGxlUGF5bWVudFJlc3BvbnNlXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ajay sir/testapp/testapp/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ajay sir/testapp/testapp/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ajay sir/testapp/testapp/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ajay sir/testapp/testapp/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ajay sir/testapp/testapp/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ajay sir/testapp/testapp/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ajay sir/testapp/testapp/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-jupw8mnhpv

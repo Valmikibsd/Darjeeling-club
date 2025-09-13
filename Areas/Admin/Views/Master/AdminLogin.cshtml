@@ -1,0 +1,90 @@
+﻿@{
+	ViewData["Title"] = "AdminLogin";
+	Layout = null;
+}
+
+<center>
+	<h1 style="margin-top:200px;
+background-image:url('@Url.Content("~/img/images (1).jpg")');
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	width:350px">
+		ADMIN LOGIN
+	</h1>
+</center>
+
+<html>
+
+<head>
+	<meta name="viewport" content="width=device-width" />
+	<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+	<link rel="stylesheet" href="~/HolidayClubWebsite.style.css" asp-append-version="true" />
+</head>
+
+<body style="background-image: url('@Url.Content("~/img/background_login.jpg")');
+background-repeat:no-repeat;
+background-size:cover;
+background-attachment:fixed;">
+	<div class="content-wrapper">
+		<div class="container-full">
+			<!--Main content-->
+			<section class="content">
+				<div class="row">
+					<div class="col-12">
+						<div class="box">
+							<div class="box-body">
+								<form action="">
+									<div class="form-body">
+										<center>
+											<div id="divDescription"
+												 style="background-image:url('@Url.Content("~/img/images (1).jpg")');
+											background-repeat:no-repeat;
+											background-size:cover;
+											background-attachment:fixed;
+											width:350px;
+											height:260px">
+												<input type="hidden" id="id" value="0" />
+												<div class="col-md-4">
+													<div class="form-group">
+														<label class="font-weight-700 font-size-16" style="color:white;">USER NAME</label>
+														<input type="text" name="username" class="form-control" id="txtusrname"
+															   style="width:200px;margin-left:-50px" />
+													</div>
+												</div>
+												<div class="col-md-4">
+													<div class="form-group">
+														<label class="font-weight-700 font-size-16" style="color:white">PASSWORD</label>
+														<input type="password" name="password" class="form-control"
+															   id="txtpassword" style="width:200px;margin-left:-50px" />
+													</div>
+												</div>
+												<br />
+												<a href="#" style="color:black">Forgot Your Password</a>
+												<br />
+												<div class="form-actions mt-10">
+													<input type="submit" asp-area="Admin" asp-controller="Master" asp-action="AdminLogin"
+														   formmethod="post" class="btn btn-danger" id="btnlogin" value="Login" />
+												</div>
+												<br />
+												<div class="form-actions mt-10">
+													@if (ViewBag.msg != null)
+													{
+														<span style="color:red">@ViewBag.msg</span>
+													}
+												</div>
+											</div>
+										</center>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+	</div>
+</body>
+</html>
+

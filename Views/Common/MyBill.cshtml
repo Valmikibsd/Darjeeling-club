@@ -1,0 +1,814 @@
+﻿@model ClubApp.Models.Mybills
+@{
+    ViewData["Title"] = "MyBill";
+    Layout = null;
+}
+
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, shrink-to-fit=no, viewport-fit=cover">
+
+    <link rel="apple-touch-icon" href="/img/f7-icon-square.html">
+    <link rel="icon" href="/img/f7-icon.html">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="/vendor/bootstrap-4.1.3/css/bootstrap.min.css">
+
+    <!-- Material design icons CSS -->
+    <link rel="stylesheet" href="/vendor/materializeicon/material-icons.css">
+
+    <!-- swiper carousel CSS -->
+    <link rel="stylesheet" href="/vendor/swiper/css/swiper.min.css">
+
+    <!-- app CSS -->
+    <link id="theme" rel="stylesheet" href="/css/style.css" type="text/css">
+
+
+    <title>Membership Number</title>
+    <style type="text/css">
+        .jqstooltip {
+            position: absolute;
+            left: 0px;
+            top: 0px;
+            visibility: hidden;
+            background: rgb(0, 0, 0) transparent;
+            background-color: rgba(0,0,0,0.6);
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+            -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+            color: white;
+            font: 10px arial, san serif;
+            text-align: left;
+            white-space: nowrap;
+            padding: 5px;
+            border: 1px solid white;
+            z-index: 10000;
+        }
+
+        .jqsfield {
+            color: white;
+            font: 10px arial, san serif;
+            text-align: left;
+        }
+
+        .manpasand table
+        {
+            table-layout:fixed;
+        }
+
+        .modal {
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 1050;
+            display: none;
+            width: 100%;
+            height: auto;
+            overflow: hidden;
+            outline: 0;
+        }
+    </style>
+    <script src="https://psa.atomtech.in/staticdata/ots/js/atomcheckout.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        function openPay() {
+
+            // alert('openPay called');
+            var rb = document.getElementById('txttok').value;
+            var emailid = document.getElementById('emailid').value;
+            var mobileno = document.getElementById('mobileno').value;
+            //alert("mesage:"+rb);
+            const options = {
+                "atomTokenId": rb,
+                "merchId": "438556",
+                "custEmail": emailid,
+                "custMobile": mobileno,
+                "returnUrl": "https://app.holidayclub.in/Common/BILLResponse"
+            }
+            let atom = new AtomPaynetz(options, 'uat');
+        }
+    </script>
+</head>
+
+<body class="color-theme-blue" >
+    <form method="post" name="Common" action="MyBill">
+    <div class="wrapper">
+        <!-- page main start -->
+        <div class="page">
+            <div class="page-content h-100">
+                <div class="page-content">
+                    <div class="content-sticky-footer pt-2">
+
+                        <div class="col-12 mb-4">
+                            <div class="row">
+                                <div class="col-12"><a href="/Common/login" class="menu-left-close inner_back block-title"><i class="material-icons">keyboard_arrow_left</i></a><h2 class="block-title inner_title title_top">My Bills</h2></div>
+                            </div>
+                        </div>
+
+                        <div class="row mx-0 ">
+                            <div class="col">
+                                <div id="accordion" class="bill">
+                                    <div class="card mb-1 border-0 rounded-0">
+                                        <div class="col-12">
+                                            <div class="row tap_data " id="myDIV">
+                                                <div class="main_div_tab scroller">
+                                                    <div class="col-my">
+                                                       
+                                                            <a href="#" class="collapsed d-1 card-header py-2 btn active" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                                            <div>
+                                                                </div>
+                                                                Subsciption
+                                                            </a>
+                                                        </div>
+                                                    
+                                                   
+
+                                                    <div class="col-my">
+                                                        
+                                                        <a href="#" class="collapsed d-2 card-header py-2 btn" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                                            <div>
+                                                            </div>  Card Recharge
+                                                            </a>
+                                                       
+                                                    </div>
+
+                                                    <div class="col-my">
+                                                        
+                                                        <a href="#" class="collapsed d-3 card-header py-2 btn" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                                            <div>
+                                                        </div>  Food
+                                                            </a>
+                                                      
+                                                    </div>
+
+                                                    <div class="col-my">
+
+                                                        <a href="#" class="collapsed d-4 card-header py-2 btn" data-toggle="collapse" data-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour" id="fours">
+                                                            <div>
+                                                            </div>Bar
+                                                        </a>
+
+                                                    </div>
+
+                                                    <div class="col-my">
+                                                       
+                                                        <a href="#" class="collapsed d-5 card-header py-2 btn" data-toggle="collapse" data-target="#collapsefive" aria-expanded="false" aria-controls="collapsefive">
+                                                            <div>
+                                                            </div>  Facility
+                                                            </a>
+                                                       
+                                                    </div>
+
+                                                  
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <p>
+                                            <input type="text" id="selection" value="@ViewBag.yeardata" style="border-radius: 10px;
+    border-color: #f8fbff;
+    box-shadow: none;
+    width: 100%;
+    border: 1px solid #00368c;
+    margin-top: 4px;">
+                                        </p>
+                                        <style type="text/css">
+                                            input,
+                                            select,
+                                            button {
+                                                font-family: inherit;
+                                                font-size: inherit;
+                                                padding: 8px;
+                                            }
+
+                                            select {
+                                                padding: 8px;
+                                            }
+
+                                            .monthly-wrp {
+                                                padding: 1em;
+                                                top: 6px;
+                                                z-index: 1000;
+                                                border-radius: 3px;
+                                                background-color: #2C3E50;
+                                            }
+
+                                                .monthly-wrp:before {
+                                                    content: "";
+                                                    border-bottom: 6px solid #2C3E50;
+                                                    border-left: 6px solid transparent;
+                                                    border-right: 6px solid transparent;
+                                                    position: absolute;
+                                                    top: -6px;
+                                                    left: 6px;
+                                                    z-index: 1002;
+                                                }
+
+
+                                                .monthly-wrp .years {
+                                                    margin-bottom: 0.8em;
+                                                    text-align: center;
+                                                }
+
+                                                    .monthly-wrp .years select {
+                                                        border: 0;
+                                                        border-radius: 3px;
+                                                        width: 100%;
+                                                    }
+
+                                                        .monthly-wrp .years select:focus {
+                                                            outline: none;
+                                                        }
+
+                                                .monthly-wrp table {
+                                                    border-collapse: collapse;
+                                                    table-layout: fixed;
+                                                }
+
+                                                .monthly-wrp td {
+                                                    padding: 1px;
+                                                }
+
+                                                .monthly-wrp table button {
+                                                    width: 100%;
+                                                    border: none;
+                                                    background-color: #1ABC9C;
+                                                    color: #FFFFFF;
+                                                    font-size: 14px;
+                                                    padding: 0.6em;
+                                                    cursor: pointer;
+                                                    border-radius: 3px;
+                                                }
+
+                                                    .monthly-wrp table button:hover {
+                                                        background-color: #16A085;
+                                                    }
+
+                                                    .monthly-wrp table button:focus {
+                                                        outline: none;
+                                                    }
+
+                                        </style>
+
+
+
+                                        <!-- profile-data -->
+                                        <div id="collapseOne" class="collapse show mt-2" data-parent="#accordion" style="">
+                                            <div class="card-body">
+                                                <div class="able">
+                                                    <table>
+                                                        <thead>
+                                                            <tr>
+                                                                <th>Bill No</th>
+                                                                <th>Bill Date</th>
+                                                                <th>Amount</th>
+                                                               @*  <th>Status</th> *@
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            @foreach(var sub in Model.subscriptins)
+                                                            {
+                                                                <tr>
+                                                                <td><p>@sub.billno</p></td>
+                                                                <td><p>@(Convert.ToDateTime( sub.billdate).ToShortDateString())</p></td>
+                                                                <td><p>@sub.amount</p></td>
+                                                                        <td>
+                                                                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#detailsModal1"
+                                                                                    onclick="showDetails1('@sub.billno','4')">
+                                                                            Details
+                                                                            </button>
+                                                                        </td>
+                                                                   @*  <td><p>@sub.status</p></td> *@
+                                                            </tr>
+                                                            }
+                                                           
+                                                           
+                                                        </tbody>
+                                                    </table>
+                                                    @if (@ViewBag.stateus == "Pending")
+                                                    {
+                                                        <div class="bottom_data manpasand">
+                                                                <table>
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td><p> Credit Bill </p></td>
+                                                                            <td><p></p></td>
+                                                                            <td><p>@ViewBag.Memorandum</p></td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                             <table>
+                                                                <tbody>
+                                                                    <tr>
+                                                                            <td><p> Your Outstanding </p></td>
+                                                                        <td><p></p></td>
+                                                                        <td><p>@ViewBag.OPENBAL</p></td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                            <table>
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td><p>Total Pay</p></td>
+                                                                        <td><p></p></td>
+                                                                        <td><p>@ViewBag.totaloutstanding</p></td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                            <input type="hidden" id="txttok" name="txttok"  value="@ViewBag.tokenid" />
+                                                            <input type="hidden" id="emailid" name="emailid" value="@ViewBag.EMAIL" />
+                                                            <input type="hidden" id="mobileno" name="mobileno" value="@ViewBag.MOBILE" />
+                                                                <input type="hidden" id="outs" name="outs" value="@ViewBag.totaloutstanding" />
+                                                            @* <button><a href="#" onclick="openPay(); return false" >pay</a></button> *@
+                                                                @if (Convert.ToDouble(@ViewBag.totaloutstanding)>1)
+                                                                {
+                                                            <button class="btn btn-primary" id="btnsubmit" name="submit"  onclick="payamount();">Pay Amount</button>
+                                                                }
+                                                        </div>
+                                                    }
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div id="collapseTwo" class="collapse" data-parent="#accordion" style="">
+                                            <div class="card-body">
+                                                <div class="able">
+                                                    <table>
+                                                        <thead>
+                                                            <tr>
+                                                                <th>Bill No</th>
+                                                                <th>Bill Date</th>
+                                                                <th>Amount</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                             @foreach(var card in Model.cardrecharge)
+                                                            {
+                                                                <tr>
+                                                                <td><p>@card.billno</p></td>
+                                                                <td><p> @(Convert.ToDateTime(card.billdate).ToShortDateString())</p></td>
+                                                                <td><p>@card.amount</p></td>
+                                                            </tr>
+                                                            }
+                                                           
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div id="collapseThree" class="collapse" data-parent="#accordion" style="">
+                                            <div class="card-bodys">
+                                                <div class="able">
+                                                    <table>
+                                                        <thead>
+                                                            <tr>
+                                                                <th>Bill No</th>
+                                                                <th>Bill Date</th>
+                                                                <th>Amount</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            @foreach(var br in Model.bar)
+                                                            {
+                                                                <tr>
+                                                                <td><p>@br.billno</p></td>
+                                                                <td><p>@br.billdate</p></td>
+                                                                <td><p>@br.amount</p></td>
+                                                                    <td>
+                                                                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#detailsModal"
+                                                                                onclick="showDetails('@br.billno','1')">
+                                                                            Details
+                                                                        </button>
+                                                                    </td>
+                                                            </tr>
+                                                            }
+                                                            
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div id="collapsefour" class="collapse" data-parent="#accordion" style="">
+                                            <div class="card-bodys">
+                                                <div class="able">
+                                                    <table>
+                                                        <thead>
+                                                            <tr>
+                                                                <th>Bill No</th>
+                                                                <th>Bill Date</th>
+                                                                <th>Amount</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            @foreach(var food in Model.food)
+                                                            {
+                                                                <tr>
+                                                                <td><p>@food.billno</p></td>
+                                                                <td><p>@food.billdate</p></td>
+                                                                <td><p>@food.amount</p></td>
+                                                                    <td>
+                                                                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#detailsModal"
+                                                                                onclick="showDetails('@food.billno','2')">
+                                                                            Details
+                                                                        </button>
+                                                                    </td>
+                                                            </tr>
+                                                            }
+                                                            
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                         <div id="collapsefive" class="collapse" data-parent="#accordion" style="">
+                                            <div class="card-bodys">
+                                                <div class="able">
+                                                    <table>
+                                                        <thead>
+                                                            <tr>
+                                                                <th>Bill No</th>
+                                                                <th>Bill Date</th>
+                                                                <th>Amount</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            @foreach(var fac in Model.facilities)
+                                                            {
+                                                                <tr>
+                                                                <td><p>@fac.billno</p></td>
+                                                                <td><p>@fac.billdate</p></td>
+                                                                <td><p>@fac.amount</p></td>
+                                                                    <td>
+                                                                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#detailsModal"
+                                                                                onclick="showDetails('@fac.billno','3')">
+                                                                            Details
+                                                                        </button>
+                                                                    </td>
+                                                            </tr>
+                                                            }
+                                                            
+                                                            
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                        </div>
+                                       
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <br>
+
+            </div>
+            <input type="hidden" id="year" name="year" value="@ViewBag.yearss" />
+        </div>
+        <!-- page main ends -->
+
+    </div>
+
+    <div class="modal fade" id="detailsModal" tabindex="-1" role="dialog" aria-labelledby="detailsModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="detailsModalLabel">Bill Details</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                    <div class="modal-body" style="overflow:auto;">
+                    <div class="able">
+                            <table style=" overflow-y: auto;">
+                        <thead>
+                                <tr style="border-bottom: 1px solid #ddd;">
+                                <th>Name</th>
+                                <th>Qty</th>
+                                <th>Rate</th>
+                                <th>Amount</th>
+                                <th>Mode</th>
+                            </tr>
+                        </thead>
+                            <tbody id="datar" style="border-bottom: 1px solid #ddd;">
+
+                        </tbody>
+                    </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <div class="modal fade" id="detailsModal1" tabindex="-1" role="dialog" aria-labelledby="detailsModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="detailsModalLabel">Bill Details</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body" style="overflow:auto;">
+                        <div class="able">
+                            <table style=" overflow-y: auto;">
+                                <thead>
+                                    <tr style="border-bottom: 1px solid #ddd;">
+                                        <th>Name</th>
+                                        @* <th>Qty</th> *@
+                                       @*  <th>Rate</th> *@
+                                        <th>Amount</th>
+                                       @*  <th>Mode</th> *@
+                                    </tr>
+                                </thead>
+                                <tbody id="datar1" style="border-bottom: 1px solid #ddd;">
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+    <button type="submit" id="rzp-paymentresponse_bill" class="btn btn-primary" hidden>Submit</button>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="/js/jquery-3.2.1.min.js"></script>
+    <script src="/js/popper.min.js"></script>
+    <script src="/vendor/bootstrap-4.1.3/js/bootstrap.min.js"></script>
+
+    <!-- Cookie jquery file -->
+    <script src="/vendor/cookie/jquery.cookie.js"></script>
+
+    <!-- sparklines chart jquery file -->
+    <script src="/vendor/sparklines/jquery.sparkline.min.js"></script>
+
+    <!-- Circular progress gauge jquery file -->
+    <script src="/vendor/circle-progress/circle-progress.min.js"></script>
+
+    <!-- Swiper carousel jquery file -->
+    <script src="/vendor/swiper/js/swiper.min.js"></script>
+
+    <!-- Application main common jquery file -->
+    <script src="/js/main.js"></script>
+
+    <script>
+        function payamount(){
+         
+                document.getElementById('rzp-paymentresponse_bill').click();
+           
+        }
+
+
+
+    </script>
+    <script>
+        function showDetails(billno,sype) {
+
+
+            $("#datar").html('');
+            $.ajax({
+                url: "/Common/Usp_details",
+                data: { billno: billno, type: sype },
+                type: "POST",
+                success: function (data) {
+                    var v = "";
+                    $("#datar").html(data);
+
+                },
+            });
+          
+        }
+
+        function showDetails1(billno, sype) {
+
+
+            $("#datar1").html('');
+            $.ajax({
+                url: "/Common/Usp_details",
+                data: { billno: billno, type: sype },
+                type: "POST",
+                success: function (data) {
+                    var v = "";
+                    $("#datar1").html(data);
+
+                },
+            });
+
+        }
+    </script>
+    <!-- page specific script -->
+    <script type="text/javascript">
+
+        // $(document).ready(function () {
+        //     // Get all buttons with class="btn" inside the container
+        //     var btnss = btnContainer.getElementsByClassName("btn");
+        //    for (var i = 0; i < btnss.length; i++) {
+        //      //alert();
+
+        //     var current = document.getElementsByClassName("active");
+
+          
+        //     current[0].className = current[0].className.replace(" active", "");
+           
+
+        //     }
+
+        //     let myElement = document.getElementById('fours');
+        //     myElement.classList.add("active");
+
+        //     myElement.click();
+
+        // })
+   </script>
+
+
+    <script type="text/javascript">// Get the container element
+var btnContainer = document.getElementById("myDIV");
+
+// Get all buttons with class="btn" inside the container
+var btns = btnContainer.getElementsByClassName("btn");
+
+
+// Loop through the buttons and add the active class to the current/clicked button
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+          
+    var current = document.getElementsByClassName("active");
+                // alert(current[0].className)
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+
+                var currentq = document.getElementsByClassName("active");
+            // alert(currentq[0].className);
+  });
+}
+</script>
+
+    <script type="text/javascript">
+        var yearss=$("#year").val();
+        function padToTwo(number) {
+            if (number <= 9999) {
+                number = ("0" + number).slice(-2);
+            }
+            return number;
+        }
+
+        (function ($) {
+
+            $.fn.monthly = function (options) {
+                var months = options.months || [
+                    "January",
+                    "February",
+                    "March",
+                    "April",
+                    "May",
+                    "June",
+                    "July",
+                    "August",
+                    "September",
+                    "October",
+                    "November",
+                    "December"
+                ],
+                    Monthly = function (el) {
+                        this._el = $(el);
+                        this._init();
+                        this._render();
+                        this._renderYears();
+                        this._renderMonths();
+                        this._bind();
+                    };
+
+                Monthly.prototype = {
+                    _init: function () {
+                        this._el.html(months[0] + " " + options.years[0]);
+                    },
+
+                    _render: function () {
+                        var linkPosition = this._el.offset(),
+                            cssOptions = {
+                                display: "none",
+                                position: "absolute",
+                                top:
+                                    linkPosition.top + this._el.height() + (options.topOffset || 0),
+                                left: linkPosition.left
+                            };
+                        this._container = $('<div class="monthly-wrp">')
+                            .css(cssOptions)
+                            .appendTo($("body"));
+                    },
+
+                    _bind: function () {
+                        var self = this;
+                        this._el.on("click", $.proxy(this._show, this));
+                        $(document).on("click", $.proxy(this._hide, this));
+                        this._yearsSelect.on("click", function (e) {
+                            e.stopPropagation();
+                        });
+                        this._container.on("click", "button", $.proxy(this._selectMonth, this));
+                    },
+
+                    _show: function (e) {
+                        e.preventDefault();
+                        e.stopPropagation();
+                        this._container.css("display", "inline-block");
+                    },
+
+                    _hide: function () {
+                        this._container.css("display", "none");
+                    },
+
+                    _selectMonth: function (e) {
+                        var monthIndex = $(e.target).data("value"),
+                            month = months[monthIndex],
+                            year = this._yearsSelect.val();
+                        this._el.html(month + " " + year);
+                        if (options.onMonthSelect) {
+                            options.onMonthSelect(monthIndex, month, year);
+                        }
+                    },
+
+                    _renderYears: function () {
+                        var markup = $.map(options.years, function (year) {
+                            var seld= "";
+                          if (yearss == year)
+                        {
+                                seld = "selected";
+                        }
+                            return "<option " + seld + ">" + year + "</option>";
+                        
+                        });
+                        var yearsWrap = $('<div class="years">').appendTo(this._container);
+                        this._yearsSelect = $("<select>")
+                            .html(markup.join(""))
+                            .appendTo(yearsWrap);
+                    },
+
+                    _renderMonths: function () {
+                        var markup = ["<table>", "<tr>"];
+                        $.each(months, function (i, month) {
+                            if (i > 0 && i % 4 === 0) {
+                                markup.push("</tr>");
+                                markup.push("<tr>");
+                            }
+                            markup.push(
+                                '<td><button data-value="' + i + '">' + month + "</button></td>"
+                            );
+                        });
+                        markup.push("</tr>");
+                        markup.push("</table>");
+                        this._container.append(markup.join(""));
+                    }
+                };
+
+                return this.each(function () {
+                    return new Monthly(this);
+                });
+            };
+        })(jQuery);
+
+        $(function () {
+            $("#selection").monthly({
+                years: [2022, 2023, 2024, 2025, 2026,2027,2028,2029,2030],
+                topOffset: 28,
+                onMonthSelect: function (mi, m, y) {
+                    mi = padToTwo(mi);
+                    $("#selection").val(m + " " + y);
+                    $("#monthly").val(y + "-" + mi);
+                    //alert(m + " " + y)
+                     window.location.href = "/Common/MyBill?years=" + y + "&monthss=" + m + ""
+                }
+                
+             // window.location.href = "/Common/MyBill?years=" + dateval + "&monthss=" + venetupeids + ""
+            });
+           
+        });
+
+   
+        
+
+           //$("#selection").change(function(){
+
+           // alert();
+       /// });
+     
+        
+    </script>
+
+</body>
+</html>
+
