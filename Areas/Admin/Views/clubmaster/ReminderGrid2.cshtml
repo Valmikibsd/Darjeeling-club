@@ -108,7 +108,7 @@
 
     <div class="ref-date">
         <span>Ref. No:@Model.refno</span>
-        <span>Dt: @DateTime.Now.ToString("dd-MMMM-yyyy")</span>
+        <span style="float:right;">Dt: @DateTime.Now.ToString("dd-MMMM-yyyy")</span>
     </div>
 
     <div class="title" style="text-decoration: underline;">SECOND REMINDER</div>
@@ -122,12 +122,12 @@
 
     <div class="content">
         Dear Sir/Madam,<br><br>
-        This is further to our 1st reminder sent to you on @Model.FirstRDate the payment is not made by your end. It also appears that you have already exceeded bills more than three (3) months. Your current outstanding due to the <br />Club is ₹ ……@Model.amount……………….
+        This is further to our 1st reminder sent to you on @Model.FirstRDate the payment is not made by your end. It also appears that you have already exceeded bills more than three (3) months. Your current outstanding due to the <br />Club is ₹ ……@Model.totamt……………….
         You are kindly requested to clear the outstanding dues within 10 (Ten) days from the date of receipt of this letter.
         In the event, if you are out of station, we are appending below Bank details and QR Code to enable you to make the payment
 
     </div>
-
+    
     <div class="bank-details">
         @* <a href="d:\ajay sir\testapp\testapp\wwwroot\images\darqr.jfif">d:\ajay sir\testapp\testapp\wwwroot\images\darqr.jfif</a> *@
         <img src="~/images/darqr.jfif" alt="QR Code" class="qr-code">
@@ -135,10 +135,17 @@
         <strong>PAYABLE AT:</strong> Darjeeling Gymkhana Club Ltd.<br>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong>1. State Bank of India, Darjeeling</strong><br>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Account No: 10833264338<br>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; IFSC Code: SBIN000063 (three zeros in between)<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; IFSC Code: SBIN0000063  (five zeros in between)<br>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <strong>2. HDFC Bank, Darjeeling</strong><br>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Account No: 50200056535121<br>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; IFSC Code: HDFC000454 (four zeros in between)
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; IFSC Code: HDFC0000454 (four zeros in between)
+    </div>
+    <div style="border: 1px solid;width: 67%;height: 66px;">
+        <p style="margin-top: 0px;">Note:</p>
+        <ol style="margin-top: -24px;">
+            <li>Your Club dues up to (<strong style="font-family: 'MV Boli', sans-serif;">@Model.monthtext @DateTime.Now.ToString("yyyy") Rs._@Model.amount/-_______</strong>) </li>
+            <li>Your current outstanding (<strong style="font-family: 'MV Boli', sans-serif;">Rs. _@Model.totamt/-_________________</strong>) </li>
+        </ol>
     </div>
 
     <div class="footer">

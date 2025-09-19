@@ -8,6 +8,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.AspNetCore.Razor.Language.Intermediate;
 using Newtonsoft.Json;
 using NuGet.Packaging.Signing;
+using Razorpay.Api;
 using Rotativa.AspNetCore;
 using System;
 using System.Data;
@@ -690,17 +691,21 @@ namespace ClubApp.Areas.Admin.Controllers
 
             DataSet ds = util.BindDropDown(sqlquery);
 
-            List<SelectListItem> SubCategory = new List<SelectListItem>();
-            foreach (DataRow dr in ds.Tables[0].Rows)
-            {
-                SubCategory.Add(new SelectListItem
-                {
-                    Text = dr["NAME"].ToString(),
-                    Value = dr["id"].ToString()
-                });
-            }
+            //List<SelectListItem> SubCategory = new List<SelectListItem>();
+            //foreach (DataRow dr in ds.Tables[0].Rows)
+            //{
+            //    SubCategory.Add(new SelectListItem
+            //    {
+            //        Text = dr["NAME"].ToString(),
+            //        Value = dr["id"].ToString()
+            //    });
+            //}
 
-            return Json(SubCategory);
+            var list = ds.Tables[0].AsEnumerable()
+                  .Select(r => r["Name"].ToString())
+                  .ToList();
+
+            return Json(list);
         }
 
         public JsonResult getMember(int id)
@@ -2308,9 +2313,46 @@ namespace ClubApp.Areas.Admin.Controllers
             return Json(JsonConvert.SerializeObject(dt));
         }
 
-       
+        public IActionResult reminderView(string jdata)
+        {
+            string refno = "";
+            List<ReminderModel> Member = JsonConvert.DeserializeObject<List<ReminderModel>>(jdata);
+            var d = DateTime.Now;
+            int startYear = d.Month >= 4 ? d.Year : d.Year - 1;
+            string endYY = (startYear + 1).ToString().Substring(2);
+            var fy = $"{startYear}-{endYY}";
+            //string smo = string.Format("{0,3:000}",Convert.ToInt32(Member[i].month));
+            string result = Convert.ToInt32(Member[0].type).ToString() + Convert.ToInt32(Member[0].month).ToString();
+            refno = string.Format("{0:3:000}/DGC/{1}", string.Format("{0,3:000}",Convert.ToInt32(result)), fy);
+            //refno = $"{Member[i].month:D4}/DGC/{fy}";
+            //refno = $"{Member[i].month}"
+            Member[0].refno = refno;
+            Member[0].amountinwords = util.NumberToWords(Convert.ToInt32(Member[0].totamt));
+            string viewName;
+            if (Member[0].type == 1)
+            {
+                viewName = "ReminderGrid";
+            }
+            else if (Member[0].type == 2)
+            {
+                viewName = "ReminderGrid2";
+            }
+            else if (Member[0].type == 3)
+            {
 
-         public async Task<IActionResult> Submitreminder(string jdata)
+                viewName = "ReminderFinal";
+            }
+            else
+            {
+                viewName = "LetterOftermination";
+            }
+
+            return PartialView(viewName, Member[0]);
+        }
+
+
+
+        public async Task<IActionResult> Submitreminder(string jdata)
         {
             try
             {
@@ -2335,16 +2377,17 @@ namespace ClubApp.Areas.Admin.Controllers
                         string endYY = (startYear + 1).ToString().Substring(2);      
                         var fy= $"{startYear}-{endYY}";
                         //string smo = string.Format("{0,3:000}",Convert.ToInt32(Member[i].month));
-                        refno = string.Format("{0:3:000}/DGC/{1}", string.Format("{0,3:000}", Convert.ToInt32(Member[i].month)), fy);
+                        string result = Convert.ToInt32(Member[0].type).ToString() + Convert.ToInt32(Member[0].month).ToString();
+                        refno = string.Format("{0:3:000}/DGC/{1}", string.Format("{0,3:000}", Convert.ToInt32(result)), fy);
                         //refno = $"{Member[i].month:D4}/DGC/{fy}";
                         //refno = $"{Member[i].month}"
                         Member[i].refno=refno;
-                        Member[i].amountinwords = util.NumberToWords(Convert.ToInt32(Member[i].amount));
+                        Member[i].amountinwords = util.NumberToWords(Convert.ToInt32(Member[i].totamt));
                         if (!Directory.Exists(folderPath))
                         {
                             Directory.CreateDirectory(folderPath);
                         }
-                        string query = $"exec save_reminder '{Member[i].MemberId}',{Member[i].type},{Member[i].amount},'{Member[i].month}',{Member[i].category},{Convert.ToInt32(HttpContext.Session.GetString("UserId"))},'{refno}'";
+                        string query = $"exec save_reminder '{Member[i].MemberId}',{Member[i].type},{Member[i].amount},'{Member[i].month}',{Member[i].category},{Convert.ToInt32(HttpContext.Session.GetString("UserId"))},'{refno}',{Member[i].totamt}";
                         string status = util.MultipleTransactions(query);
                         if (status == "Successfull")
                         {
@@ -2409,8 +2452,18 @@ namespace ClubApp.Areas.Admin.Controllers
         [HttpGet]
         public IActionResult Communication()
         {
-            ViewBag.bindcat = util.PopulateDropDown("select CATEGORYCODE,CATEGORYNAME from TM_CATEGORYMASTER_Cre_Cou", util.Clubstr);
-            return View();
+            HttpContext.Session.GetString("UserId");
+            if (HttpContext.Session.GetString("UserId") != null)
+            {
+                ViewBag.bindcat = util.PopulateDropDown("select CATEGORYCODE,CATEGORYNAME from TM_CATEGORYMASTER_Cre_Cou", util.Clubstr);
+                return View();
+            }
+            else
+            {
+                return RedirectToAction("AdminLogin", "Master", "Admin");
+            }
+          //  ViewBag.bindcat = util.PopulateDropDown("select CATEGORYCODE,CATEGORYNAME from TM_CATEGORYMASTER_Cre_Cou", util.Clubstr);
+            //return View();
         }
         [HttpGet]
         public IActionResult getcotMember()

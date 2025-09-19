@@ -22,10 +22,10 @@ namespace ClubApp
 
         //public string Clubstr = "Data Source=144.168.39.28,1633;Initial Catalog=club;Persist Security Info=True;User ID=club;Password=qpsdemtcikvnbjgol1zf";
 
-       // SqlConnection sqcon = new SqlConnection(@"Data Source=103.21.58.192;Initial Catalog=testdgcclub;Persist Security Info=True;User ID=testdgcclub;Password=uB33x7y%4");
-       SqlConnection sqcon = new SqlConnection(@"Data Source=103.21.58.192;Initial Catalog=dgcgym;Persist Security Info=True;User ID=dgcgym1;Password=~1FXvhq~f0T1albd");
-        public string Clubstr = "Data Source=103.21.58.192;Initial Catalog=dgcgym;Persist Security Info=True;User ID=dgcgym1;Password=~1FXvhq~f0T1albd";
-       // public string Clubstr = "Data Source=103.21.58.192;Initial Catalog=testdgcclub;Persist Security Info=True;User ID=testdgcclub;Password=uB33x7y%4";
+      SqlConnection sqcon = new SqlConnection(@"Data Source=103.21.58.192;Initial Catalog=testdgcclub;Persist Security Info=True;User ID=testdgcclub;Password=uB33x7y%4");
+      // SqlConnection sqcon = new SqlConnection(@"Data Source=103.21.58.192;Initial Catalog=dgcgym;Persist Security Info=True;User ID=dgcgym1;Password=~1FXvhq~f0T1albd");
+        //public string Clubstr = "Data Source=103.21.58.192;Initial Catalog=dgcgym;Persist Security Info=True;User ID=dgcgym1;Password=~1FXvhq~f0T1albd";
+       public string Clubstr = "Data Source=103.21.58.192;Initial Catalog=testdgcclub;Persist Security Info=True;User ID=testdgcclub;Password=uB33x7y%4";
 
         
         SqlDataAdapter SqlDa;

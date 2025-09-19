@@ -106,7 +106,7 @@
 
     <div class="ref-date">
         <span>Ref. No: @Model.refno</span>
-        <span style="float: inline-end;">Dt: @DateTime.Now.ToString("dd-MMMM-yyyy")</span>
+        <span style="float:right;">Dt: @DateTime.Now.ToString("dd-MMMM-yyyy")</span>
     </div>
 
     <div class="title" style="text-decoration: underline;">FIRST REMINDER</div>
@@ -120,7 +120,7 @@
 
     <div class="content">
         Dear Sir/Madam,<br><br>
-        It appears that you have exceeded bills more than two (2) months. Your current outstanding due to the <br>Club is ₹ @Model.amount/-<br>
+        It appears that you have exceeded bills more than two (2) months. Your current outstanding due to the <br>Club is ₹ @Model.totamt/-<br>
         You are kindly requested to clear the outstanding dues within 10 (Ten) days from the date of receipt of this letter.<br>
         In the event, if you are out of station, we are appending below Bank details and QR Code to enable you to make the payment.
     </div>
@@ -132,12 +132,18 @@
         <strong>PAYABLE AT:</strong> Darjeeling Gymkhana Club Ltd.<br>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; <strong>1. State Bank of India, Darjeeling</strong><br>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;  Account No: 10833264338<br>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; IFSC Code: SBIN000063 (three zeros in between)<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; IFSC Code: SBIN0000063 (five zeros in between)<br>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;  <strong>2. HDFC Bank, Darjeeling</strong><br>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; Account No: 50200056535121<br>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; IFSC Code: HDFC000454 (four zeros in between)
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; IFSC Code: HDFC0000454 (four zeros in between)
     </div>
-
+    <div style="border: 1px solid;width: 67%;height: 66px;">
+        <p style="margin-top: 0px;">Note:</p>
+        <ol style="margin-top: -24px;">
+            <li>Your Club dues up to (<strong style="font-family: 'MV Boli', sans-serif;">@Model.monthtext @DateTime.Now.ToString("yyyy") Rs._@Model.amount/-_______</strong>) </li>
+            <li>Your current outstanding (<strong style="font-family: 'MV Boli', sans-serif;">Rs. _@Model.totamt/-_________________</strong>) </li>
+        </ol>
+    </div>
     <div class="footer">
         In this regard we look forward to your kind co-operation to help us run the Club efficiently.<br><br>
         Thanking you

@@ -110,7 +110,7 @@
 
     <div class="ref-date">
         <span>Ref. No: @Model.refno</span>
-        <span>Dt: @DateTime.Now.ToString("dd-MMMM-yyyy")</span>
+        <span style="float:right;">Dt: @DateTime.Now.ToString("dd-MMMM-yyyy")</span>
     </div>
 
     <div class="title" style="text-decoration: underline;">FINAL REMINDER</div>
@@ -126,7 +126,7 @@
         Dear Sir/Madam,<br><br>
         This is to bring to your kind notice that you have exceeded Six months due.
 
-        Moreover, it has come to the notice of the Committee that you have not paid your Club dues of ₹ ………@Model.amount…….  (Rupees ………………<strong>@Model.amountinwords</strong>……………………………………………...) since ………………….  June-2025. It has also been brought to light that the Governing Body has been accused of being inactive and connivance towards the defaulting members. Thus, the members present unanimously decided to take strong action against the members concerned, those who have not responded to our earlier reminders. However, honoring the status of members, the house decided to give a last & <b style="display: inline;text-decoration: underline;">FINAL REMINDER TO CLEAR THEIR RESPECTIVE DUES</b> with a grace time of 30 (Thirty) days for <b style="display: inline;text-decoration: underline;">clearing their arrear dues.</b><br />
+        Moreover, it has come to the notice of the Committee that you have not paid your Club dues of ₹ ………@Model.totamt…….  (Rupees ………………<strong>@Model.amountinwords</strong>……………………………………………...) since ………………….  @Model.monthtext @DateTime.Now.ToString("yyyy"). It has also been brought to light that the Governing Body has been accused of being inactive and connivance towards the defaulting members. Thus, the members present unanimously decided to take strong action against the members concerned, those who have not responded to our earlier reminders. However, honoring the status of members, the house decided to give a last & <b style="display: inline;text-decoration: underline;">FINAL REMINDER TO CLEAR THEIR RESPECTIVE DUES</b> with a grace time of 30 (Thirty) days for <b style="display: inline;text-decoration: underline;">clearing their arrear dues.</b><br />
 
         The Article No.23 & 24 of Memorandum & Articles of Association of the Club may kindly be perused.
 
@@ -136,7 +136,7 @@
 
         It may be kindly noted that the above quoted Articles 23 & 24 is sufficient to post the name of the Member/s as defaulters. We presume that it may be due to your busy schedule or other engagements for which your dues are still lying unpaid.
 
-        Please treat this reminder as LAST & FINAL and the concerned member’s name will be struck off from the membership register and entry to the <b style="display: inline;text-decoration: underline;">Club will also be barred w.e.f., 06/08/2025 </b>and sums which are in arrear will be realized through <b style="display: inline;text-decoration: underline;">legal pay & post notice as usual.</b>
+        Please treat this reminder as LAST & FINAL and the concerned member’s name will be struck off from the membership register and entry to the <b style="display: inline;text-decoration: underline;">Club will also be barred w.e.f., @Model.stipulated </b>and sums which are in arrear will be realized through <b style="display: inline;text-decoration: underline;">legal pay & post notice as usual.</b>
 
         
 
@@ -158,15 +158,22 @@
         <div>
             State Bank of India, Darjeeling<br>
             Account No: 10833264338<br>
-            IFSC Code: SBIN000063 (three zeros in between)<br>
+            IFSC Code: SBIN0000063 (five zeros in between)<br>
         </div>
         <div>
             HDFC Bank, Darjeeling<br>
             Account No: 50200056535121<br>
-            IFSC Code: HDFC000454 (four zeros in between)<br />
+            IFSC Code: HDFC0000454 (four zeros in between)<br />
             <span style="font-size: 10px;font-weight: bold;">Payable at - Darjeeling Gymkhana Club Ltd., Darjeeling</span>
         </div>
-        </div>
+        @* </div> *@
+    </div>
+    <div style="border: 1px solid;width: 67%;height: 66px;">
+        <p style="margin-top: 0px;">Note:</p>
+        <ol style="margin-top: -24px;">
+            <li>Your Club dues up to (<strong style="font-family: 'MV Boli', sans-serif;">@Model.monthtext @DateTime.Now.ToString("yyyy") Rs._@Model.amount/-_______</strong>) </li>
+            <li>Your current outstanding (<span style="font-family: 'MV Boli', sans-serif;">Rs. _@Model.totamt/-_________________</span>) </li>
+        </ol>
     </div>
 
     

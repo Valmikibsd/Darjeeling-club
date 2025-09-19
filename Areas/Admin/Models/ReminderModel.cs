@@ -27,6 +27,8 @@ namespace DarjeelingClubApp.Areas.Admin.Models
         public string refno { get; set; }
         public string lastrefno { get; set; }
         public string thirddate { get; set; }
-        public string amountinwords { get; set; }
+        public string amountinwords { get; set; } 
+        public  string totamt { get; set; }
+        public  string monthtext { get; set; }
     }
 }

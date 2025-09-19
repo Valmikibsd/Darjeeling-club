@@ -87,8 +87,48 @@ function getmemdate() {
 }
 
 
+// include typeahead.bundle.js (from CDN or npm)
+// <script src="https://cdnjs.cloudflare.com/ajax/libs/corejs-typeahead/1.3.1/typeahead.bundle.min.js"></script>
+
+$('#memberSearch').typeahead(
+    {
+        hint: true,       // show hint in input
+        highlight: true,  // highlight matching text
+        minLength: 2      // start searching after 2 chars
+    },
+    {
+        name: 'members',
+        source: function (query, syncResults, asyncResults) {
+            $.ajax({
+                url: '/Admin/clubmaster/GetMembers',
+                data: {
+                    id: 17,   // pass category id
+                    term: query                    // what user typed
+                },
+                success: function (data) {
+                    console.log(data);
+                    asyncResults($.map(data, function (item) {
+                        return {
+                            label: item,  // text to display
+                            value: item   // actual value
+                        };
+                    }));
+                }
+            });
+        },
+        display: 'label'   // what shows in dropdown
+    }
+);
+
+// handle selection
+$('#memberSearch').bind('typeahead:select', function (ev, suggestion) {
+    console.log("Selected:", suggestion.value);
+});
+
+
+
 //--$(function () {
-    $("#memberSearch").autocomplete({
+    $("#memberaSearch").autocomplete({
         source: function (request, response) {
             $.ajax({
                 url: '/Admin/clubmaster/GetMembers', // change YourController
@@ -97,10 +137,11 @@ function getmemdate() {
                     term: request.term  // what user typed
                 },
                 success: function (data) {
+                    console.log(data);
                     response($.map(data, function (item) {
                         return {
-                            label: item.text,  // shown in dropdown
-                            value: item.value  // value returned when selected
+                            label: item,  // shown in dropdown
+                            value: item  // value returned when selected
                         };
                     }));
                 }
@@ -126,19 +167,21 @@ function Submit() {
         var check = parseInt(row.find('input.chk').is(':checked') ? 1 : 0);
         if (check == 1) {
             item.memid = row.find('.MemberId').html();
-            item.amount = row.find('.Amount').html();
+            item.amount = row.find('input.inamonut').val();
+            item.totamt = row.find('.Amount').html();
             item.name = row.find('.Name').html();
             item.address = row.find('.Address').html();
             item.contactno = row.find('.ContactNo').html();
             item.FirstRDate = row.find('.Hid_FirstRDate').html();
             item.SecondRdate = row.find('.Hid_SecondRDate').html();
-            item.stipulated = row.find('.Hid_SecondRDate').html();
+            item.stipulated = row.find('.Hid_stipulated').html();
             item.thirddate = row.find('.Hid_thirsDate').html();
             item.lastrefno = row.find('.Hid_refno').html();
             item.email = row.find('.Email').html();
             item.type = $("#ddlype").val();
             item.remindertype = $("#ddlype").find("option:selected").text().replace(" ","");
             item.month = $("#ddlmonth").val();
+            item.monthtext = $("#ddlmonth").find("option:selected").text();
             item.cat = $("#ddlcatecory").val();
             //item.cat = $("#ddlype").val();
             jsonObj.push(item);
@@ -151,7 +194,7 @@ function Submit() {
         data: { jdata: JSON.stringify(jsonObj) },
         async: false,
         success: function (json) {
-            console.log(json);
+            //console.log(json);
             alert(json)
             getmemdate();
         },
@@ -159,5 +202,58 @@ function Submit() {
             alert(errormessage.responseText);
         }
     });
+
+
+    //$('#userModal').modal('show');
 }
+
+function ViewModal(btn) {
+   // $('#userModal').modal('show');
+    var row = $(btn).closest("tr");
+
+    jsonObj = [];
+    var item = {}
+   // var check = parseInt(row.find('input.chk').is(':checked') ? 1 : 0);
+   // if (check == 1) {
+        item.memid = row.find('.MemberId').html();
+        item.amount = row.find('input.inamonut').val();
+        item.totamt = row.find('.Amount').html();
+        item.name = row.find('.Name').html();
+        item.address = row.find('.Address').html();
+        item.contactno = row.find('.ContactNo').html();
+        item.FirstRDate = row.find('.Hid_FirstRDate').html();
+        item.SecondRdate = row.find('.Hid_SecondRDate').html();
+        item.stipulated = row.find('.Hid_stipulated').html();
+        item.thirddate = row.find('.Hid_thirsDate').html();
+        item.lastrefno = row.find('.Hid_refno').html();
+        item.email = row.find('.Email').html();
+        item.type = $("#ddlype").val();
+        item.remindertype = $("#ddlype").find("option:selected").text().replace(" ", "");
+        item.month = $("#ddlmonth").val();
+        item.monthtext = $("#ddlmonth").find("option:selected").text();
+        item.cat = $("#ddlcatecory").val();
+        //item.cat = $("#ddlype").val();
+    jsonObj.push(item);
+
+    var url = '/Admin/clubmaster/reminderView?jdata=' + encodeURIComponent(JSON.stringify(jsonObj));
+    window.open(url, '_blank');  
+
+ //   }
+    //$.ajax({
+    //    type: "POST",
+    //    url: '/Admin/clubmaster/reminderView',
+    //    data: { jdata: JSON.stringify(jsonObj) },
+    //    async: false,
+    //    success: function (json) {
+    //        console.log(json);
+    //        $("#userModalBody").html(json);
+           
+            
+    //    },
+    //    error: function (errormessage) {
+    //        alert(errormessage.responseText);
+    //    }
+    //});
+}
+
 

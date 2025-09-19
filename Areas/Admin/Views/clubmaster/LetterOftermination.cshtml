@@ -108,10 +108,10 @@
 
     <div class="ref-date">
         <span>Ref. No: @Model.refno</span>
-        <span>Dt: @DateTime.Now.ToString("dd-MMMM-yyyy")</span>
+        <span style="float:right;">Dt: @DateTime.Now.ToString("dd-MMMM-yyyy")</span>
     </div>
 
-    <div class="title" style="text-decoration: underline;">SECOND REMINDER</div>
+    <div class="title" style="text-decoration: underline;">TERMINATION REMINDER</div>
 
     <div class="to-address">
         To,<br>
@@ -129,6 +129,13 @@
 
 
     </div>
+    @* <div style="border: 1px solid;width: 67%;height: 66px;">
+        <p style="margin-top: 0px;">Note:</p>
+        <ol style="margin-top: -24px;">
+            <li>Your Club dues up to (<span style="color: red;">@Model.monthtext @DateTime.Now.ToString("yyyy") Rs._@Model.amount/-_______</span>) </li>
+            <li>Your current outstanding (<span style="color: red;">Rs. _@Model.totamt/-_________________</span>) </li>
+        </ol>
+    </div> *@
 
    
 

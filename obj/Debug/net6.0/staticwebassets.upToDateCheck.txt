@@ -522,8 +522,15 @@ wwwroot\Event\New-Year-Eve-2023251602620.jpg
 wwwroot\Event\New-Year-Eve-2023251808347.jpg
 wwwroot\Event\Republic Day Celebration 2021252308477.jpg
 wwwroot\favicon.ico
+wwwroot\FinalReminder\FinalReminder_B00056_20250919115217.pdf
+wwwroot\FinalReminder\FinalReminder_B00056_20250919132324.pdf
 wwwroot\FirstReminder\FirstReminder_B00056_20250912112621.pdf
 wwwroot\FirstReminder\FirstReminder_B00056_20250912120342.pdf
+wwwroot\FirstReminder\FirstReminder_B00056_20250919104229.pdf
+wwwroot\FirstReminder\FirstReminder_B00056_20250919110823.pdf
+wwwroot\FirstReminder\FirstReminder_B00056_20250919111400.pdf
+wwwroot\FirstReminder\FirstReminder_B00056_20250919120927.pdf
+wwwroot\FirstReminder\FirstReminder_B00056_20250919131540.pdf
 wwwroot\GalleryMain\20190203_112835 (1)252543832.jpg
 wwwroot\GalleryMain\20211007_093449252640788.jpg
 wwwroot\GalleryMain\DSC02140252558969252436814.jpg
@@ -641,6 +648,7 @@ wwwroot\js\ChatRoom.js
 wwwroot\js\CMS_DROPDOWN .js
 wwwroot\js\CMS_DROPDOWN.js
 wwwroot\js\Common.js
+wwwroot\js\commrpt.js
 wwwroot\js\communication.js
 wwwroot\js\ContactForm.js
 wwwroot\js\custom.js
@@ -830,11 +838,15 @@ wwwroot\scripts_new\js\jquery.validate.min.js
 wwwroot\scripts_new\js\jquery.validate.unobtrusive.js
 wwwroot\scripts_new\js\OnlineTrain.js
 wwwroot\scripts_new\js\zebra_datepicker.min.js
+wwwroot\SecondReminder\SecondReminder_B00056_20250919113943.pdf
+wwwroot\SecondReminder\SecondReminder_B00056_20250919122002.pdf
+wwwroot\SecondReminder\SecondReminder_B00056_20250919131822.pdf
 wwwroot\Termination\Termination_B00056_20250905150049.pdf
 wwwroot\Termination\Termination_B00056_20250905155633.pdf
 wwwroot\Termination\Termination_B00056_20250905172249.pdf
 wwwroot\Termination\Termination_B00056_20250906130133.pdf
 wwwroot\Termination\Termination_B00056_20250911125142.pdf
+wwwroot\Termination\Termination_B00056_20250919115934.pdf
 wwwroot\Termination\Termination_G00055_20250905155634.pdf
 wwwroot\Termination\Termination_G00055_20250906145414.pdf
 wwwroot\Termination\Termination_G00055_20250911142455.pdf

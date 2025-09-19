@@ -38,5 +38,11 @@ namespace DarjeelingClubApp.Areas.Admin.Controllers
 
             return Json(JsonConvert.SerializeObject(dt));
         }
+
+
+        public IActionResult CommunicationReport()
+        {
+            return View();
+        }
     }
 }

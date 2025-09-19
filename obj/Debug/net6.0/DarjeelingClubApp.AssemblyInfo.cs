@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DarjeelingClubApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d35d7afe0eacd64860dbbd1212f76ef0f91fb223")]
 [assembly: System.Reflection.AssemblyProductAttribute("DarjeelingClubApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DarjeelingClubApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
